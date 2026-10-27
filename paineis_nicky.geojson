@@ -1,0 +1,4933 @@
+{
+  "type": "FeatureCollection",
+  "name": "NICKY OOH - Risco meteorológico",
+  "generated_at": "2026-10-27T10:46:59-0300",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "0001-Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7273,
+          -26.8555
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0001-Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0001-Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0002-Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7273,
+          -26.8555
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0002-Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0002-Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0010 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.64,
+          -26.9439
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0010 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0010 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0011 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.64,
+          -26.9439
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0011 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0011 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0012 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.64,
+          -26.9439
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0012 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0012 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0013]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6934,
+          -26.9133
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0013] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0013]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0019 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6402,
+          -26.9429
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0019 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0019 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0020 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6402,
+          -26.9429
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0020 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0020 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0021 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6402,
+          -26.9429
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0021 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0021 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0022  Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6402,
+          -26.9429
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0022  Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0022  Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0026 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6858,
+          -26.9022
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0026 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0026 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0027  Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6858,
+          -26.9022
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0027  Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0027  Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0032]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6423,
+          -26.9333
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0032] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0032]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0040 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6832,
+          -26.8904
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0040 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0040 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0041 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6832,
+          -26.8904
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0041 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0041 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0042 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6832,
+          -26.8904
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0042 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0042 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0043 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6832,
+          -26.8904
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0043 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0043 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0047]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.642,
+          -26.9337
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0047] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0047]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0052 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6627,
+          -26.9113
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0052 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0052 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0053 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6627,
+          -26.9113
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0053 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0053 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0066]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6403,
+          -26.9425
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0066] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0066]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0101 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6602,
+          -26.9133
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0101 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0101 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0103]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.656,
+          -26.9077
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0103] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0103]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0104 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6728,
+          -26.9213
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0104 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0104 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0105 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6728,
+          -26.9213
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0105 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0105 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0108 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6726,
+          -26.9195
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0108 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0108 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0109 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6726,
+          -26.9195
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0109 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0109 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0110 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6418,
+          -26.9367
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0110 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0110 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0111 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6418,
+          -26.9367
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0111 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0111 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0112]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6612,
+          -26.9062
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0112] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0112]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0123 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6834,
+          -26.9286
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0123 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0123 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0124 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6834,
+          -26.9286
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0124 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0124 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0125]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6824,
+          -26.9157
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0125] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0125]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0128 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6715,
+          -26.9182
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0128 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0128 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0129 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6715,
+          -26.9182
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0129 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0129 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0131]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.702,
+          -26.9337
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0131] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0131]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0132 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6577,
+          -26.9178
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0132 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0132 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0133 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6577,
+          -26.9178
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0133 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0133 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0135 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7089,
+          -26.9201
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0135 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0135 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0136 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7089,
+          -26.9201
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0136 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0136 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0168]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7085,
+          -26.9185
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0168] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0168]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0178]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7162,
+          -26.9033
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0178] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0178]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0180 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6678,
+          -26.9138
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0180 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0180 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0181 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6678,
+          -26.9138
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0181 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0181 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0185 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6603,
+          -26.9133
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0185 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0185 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0201]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6454,
+          -27.0009
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0201] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0201]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0214]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6107,
+          -27.0073
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0214] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 99,5% | P≥54: 1,6% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0214]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0240]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6677,
+          -26.985
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0240] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0240]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0250]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6676,
+          -26.9851
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0250] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0250]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0251]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6464,
+          -27.0002
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0251] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0251]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0252]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6462,
+          -27.0007
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0252] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0252]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0254 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6653,
+          -26.9876
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0254 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0254 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0255 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6653,
+          -26.9876
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0255 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0255 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0256]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6462,
+          -27.0007
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0256] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0256]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0257 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6639,
+          -26.9899
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0257 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0257 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0258 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6639,
+          -26.9899
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0258 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0258 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0271]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.652,
+          -26.9947
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0271] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0271]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0282 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6653,
+          -26.9882
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0282 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0282 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0283 Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6653,
+          -26.9882
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0283 Q1 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0283 Q1",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0296]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6465,
+          -27.0005
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0296] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0296]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0299]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6461,
+          -26.9997
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0299] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0299]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0709]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7181,
+          -26.8434
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0709] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Navegantes / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0709]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0710]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7184,
+          -26.8434
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0710] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Navegantes / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0710]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0802 Q2]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6789,
+          -26.7982
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0802 Q2] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Piçarras / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0802 Q2]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0807]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6362,
+          -26.7819
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0807] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Penha / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0807]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0810]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6799,
+          -26.7445
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0810] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Piçarras / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0810]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0811 Q1]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6789,
+          -26.7982
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0811 Q1] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Piçarras / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0811 Q1]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[0812]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6798,
+          -26.7447
+        ]
+      },
+      "properties": {
+        "name": "NICKY [0812] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Piçarras / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[0812]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[1102]",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6924,
+          -26.6401
+        ]
+      },
+      "properties": {
+        "name": "NICKY [1102] · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Barra Velha / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "[1102]",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1105RFD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.64,
+          -26.9436
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1105RFD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1105RFD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1105RFD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6401,
+          -26.9432
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1105RFD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1105RFD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1109RFD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6421,
+          -26.9336
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1109RFD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1109RFD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1109RFD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6423,
+          -26.9331
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1109RFD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1109RFD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1245RFS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6324,
+          -26.9983
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1245RFS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1245RFS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1297RFS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6361,
+          -26.9874
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1297RFS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1297RFS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1183RFD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6767,
+          -26.924
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1183RFD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1183RFD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1183RFD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6766,
+          -26.9239
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1183RFD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1183RFD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1141RFS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6778,
+          -26.8939
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1141RFS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1141RFS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1123FD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7966,
+          -26.9788
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1123FD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1123FD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1123FD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7962,
+          -26.9787
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1123FD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1123FD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1126FD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6963,
+          -26.9392
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1126FD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1126FD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1126FD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6963,
+          -26.9392
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1126FD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1126FD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1156FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.64,
+          -26.944
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1156FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1156FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1200FD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6661,
+          -26.9873
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1200FD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1200FD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1200FD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6658,
+          -26.9877
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1200FD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1200FD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1204FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6818,
+          -26.9782
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1204FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1204FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1207FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6676,
+          -26.9853
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1207FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1207FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1210FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6675,
+          -26.9853
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1210FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1210FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1228FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6098,
+          -27.0073
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1228FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 99,5% | P≥54: 1,6% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1228FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1233FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6055,
+          -27.0069
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1233FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 99,5% | P≥54: 1,6% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1233FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1239FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6656,
+          -26.9873
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1239FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1239FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1701FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6531,
+          -26.8843
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1701FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Navegantes / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1701FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1805FD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.708,
+          -26.8351
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1805FD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Penha / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1805FD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1805FD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7086,
+          -26.8352
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1805FD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Penha / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1805FD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1824FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6959,
+          -26.7479
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1824FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Piçarras / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1824FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1835FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6308,
+          -27.3783
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1835FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Governador Celso Ramos / Santa Catarina<br>ECMWF P≥36: 8,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1835FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2004FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6177,
+          -27.5845
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2004FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: São José / Santa Catarina<br>ECMWF P≥36: 58,0% | P≥54: 1,2% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2004FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2005FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6178,
+          -27.5846
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2005FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: São José / Santa Catarina<br>ECMWF P≥36: 58,0% | P≥54: 1,2% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2005FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2015FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.618,
+          -27.585
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2015FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: São José / Santa Catarina<br>ECMWF P≥36: 58,0% | P≥54: 1,2% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2015FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2019FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6181,
+          -27.5852
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2019FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: São José / Santa Catarina<br>ECMWF P≥36: 58,0% | P≥54: 1,2% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2019FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2022FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.618,
+          -27.5855
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2022FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: São José / Santa Catarina<br>ECMWF P≥36: 58,0% | P≥54: 1,2% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2022FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2029FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.666,
+          -27.6386
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2029FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Palhoça / Santa Catarina<br>ECMWF P≥36: 11,0% | P≥54: 0,1% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2029FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1095PRC-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6959,
+          -26.9364
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1095PRC-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1095PRC-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1096PRC-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6963,
+          -26.9366
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1096PRC-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1096PRC-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1170PRE-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6287,
+          -26.9418
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1170PRE-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1170PRE-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1264PRC-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6671,
+          -26.9855
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1264PRC-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1264PRC-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1278PRC-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6678,
+          -26.985
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1278PRC-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1278PRC-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1301PRC-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6552,
+          -27.0481
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1301PRC-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1301PRC-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1704PRE-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.709,
+          -26.8352
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1704PRE-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Navegantes / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1704PRE-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1710PRC-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7129,
+          -26.8383
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1710PRC-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Navegantes / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1710PRC-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1711PRC-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7122,
+          -26.8376
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1711PRC-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Navegantes / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1711PRC-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1712PRC-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7141,
+          -26.8397
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1712PRC-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Navegantes / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1712PRC-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1712PRC-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7141,
+          -26.8397
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1712PRC-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Navegantes / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1712PRC-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1215ES-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6052,
+          -27.0305
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1215ES-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 99,5% | P≥54: 1,6% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1215ES-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1260ES-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6397,
+          -26.9869
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1260ES-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1260ES-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1221ES-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6303,
+          -26.9925
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1221ES-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1221ES-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1108TS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6305,
+          -26.9463
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1108TS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1108TS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1160TS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6363,
+          -26.9443
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1160TS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1160TS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1216TP-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.638,
+          -26.9988
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1216TP-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1216TP-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0003PE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.659,
+          -26.9132
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0003PE · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0003PE",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0008PE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6397,
+          -26.9874
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0008PE · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0008PE",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1106RFS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6695,
+          -26.9098
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1106RFS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1106RFS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1213RFS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6315,
+          -26.991
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1213RFS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1213RFS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1231RFS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6388,
+          -26.9747
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1231RFS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1231RFS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1232RFS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6388,
+          -26.975
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1232RFS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1232RFS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1285RFS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6433,
+          -26.9838
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1285RFS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1285RFS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1294RFS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6526,
+          -26.9951
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1294RFS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1294RFS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1295RFS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6521,
+          -26.9947
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1295RFS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1295RFS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1118FD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6805,
+          -26.95
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1118FD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1118FD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1118FD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.681,
+          -26.9495
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1118FD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1118FD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1182FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.677,
+          -26.9243
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1182FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1182FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1196FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.719,
+          -26.8952
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1196FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1196FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1198FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6923,
+          -26.9429
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1198FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1198FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1206FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6285,
+          -26.9932
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1206FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1206FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1212FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6633,
+          -26.9904
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1212FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1212FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1214FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6052,
+          -27.0316
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1214FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 99,5% | P≥54: 1,6% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1214FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1217FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6424,
+          -26.9849
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1217FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1217FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1223FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6098,
+          -27.0196
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1223FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 99,5% | P≥54: 1,6% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1223FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1226FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6822,
+          -26.9774
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1226FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1226FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1230FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6104,
+          -27.0073
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1230FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 99,5% | P≥54: 1,6% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1230FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1234FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6388,
+          -26.9748
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1234FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1234FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1249FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6652,
+          -26.9883
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1249FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1249FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1252FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6539,
+          -26.997
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1252FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1252FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1256FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6813,
+          -26.9787
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1256FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1256FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1276FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6649,
+          -26.9884
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1276FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1276FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1277FD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6417,
+          -27.0003
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1277FD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1277FD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1277FD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6425,
+          -27.0001
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1277FD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1277FD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1282FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6804,
+          -26.9798
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1282FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1282FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1288FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6361,
+          -26.9733
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1288FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1288FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1289FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6361,
+          -26.9733
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1289FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1289FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1292FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6804,
+          -26.9798
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1292FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1292FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1293FD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5961,
+          -27.0623
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1293FD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itapema / Santa Catarina<br>ECMWF P≥36: 99,5% | P≥54: 1,6% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1293FD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1293FD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5958,
+          -27.0628
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1293FD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itapema / Santa Catarina<br>ECMWF P≥36: 99,5% | P≥54: 1,6% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1293FD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1410FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6166,
+          -27.1038
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1410FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itapema / Santa Catarina<br>ECMWF P≥36: 99,5% | P≥54: 1,6% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1410FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1415FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.612,
+          -27.1807
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1415FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Porto Belo / Santa Catarina<br>ECMWF P≥36: 63,5% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1415FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1420FD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6118,
+          -27.1778
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1420FD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Porto Belo / Santa Catarina<br>ECMWF P≥36: 63,5% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1420FD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1420FD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6118,
+          -27.1767
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1420FD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Porto Belo / Santa Catarina<br>ECMWF P≥36: 63,5% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1420FD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1702FD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6536,
+          -26.8853
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1702FD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Navegantes / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1702FD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1702FD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6539,
+          -26.8857
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1702FD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Navegantes / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1702FD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1703FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7193,
+          -26.8364
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1703FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Navegantes / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1703FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1801FD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6843,
+          -26.7798
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1801FD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Piçarras / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1801FD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1801FD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6841,
+          -26.7806
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1801FD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Piçarras / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1801FD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1806FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7085,
+          -26.8353
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1806FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Penha / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1806FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1813FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6832,
+          -26.8125
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1813FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Penha / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1813FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1819FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6805,
+          -26.7938
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1819FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Piçarras / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1819FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1834FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7156,
+          -26.623
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1834FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Barra Velha / Santa Catarina<br>ECMWF P≥36: 2,5% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1834FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2000FD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6552,
+          -27.5003
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2000FD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Biguaçu / Santa Catarina<br>ECMWF P≥36: 8,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2000FD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2000FD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6548,
+          -27.5006
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2000FD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Biguaçu / Santa Catarina<br>ECMWF P≥36: 8,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2000FD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2023FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6363,
+          -27.8467
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2023FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Palhoça / Santa Catarina<br>ECMWF P≥36: 11,0% | P≥54: 0,1% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2023FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2025FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6128,
+          -27.195
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2025FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Porto Belo / Santa Catarina<br>ECMWF P≥36: 63,5% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2025FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5012FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9005,
+          -25.96
+        ]
+      },
+      "properties": {
+        "name": "NICKY 5012FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Guaratuba / Paraná<br>ECMWF P≥36: 9,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "5012FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1142PRC-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7689,
+          -26.9587
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1142PRC-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1142PRC-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1177PRE-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6796,
+          -26.9546
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1177PRE-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1177PRE-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1110TS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6515,
+          -26.9224
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1110TS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1110TS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1830FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7055,
+          -26.835
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1830FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Penha / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1830FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1831FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7056,
+          -26.835
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1831FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Penha / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1831FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1832FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7061,
+          -26.835
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1832FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Penha / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1832FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1833FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7066,
+          -26.835
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1833FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Penha / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1833FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2031FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6276,
+          -27.3213
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2031FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Tijucas / Santa Catarina<br>ECMWF P≥36: 1,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2031FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2032FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6276,
+          -27.3213
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2032FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Tijucas / Santa Catarina<br>ECMWF P≥36: 1,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2032FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2033FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6276,
+          -27.3213
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2033FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Tijucas / Santa Catarina<br>ECMWF P≥36: 1,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2033FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2034FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.628,
+          -27.3204
+        ]
+      },
+      "properties": {
+        "name": "NICKY 2034FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Tijucas / Santa Catarina<br>ECMWF P≥36: 1,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "2034FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1195FD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6765,
+          -26.9238
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1195FD-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1195FD-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1195FD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6761,
+          -26.9232
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1195FD-02 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1195FD-02",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1717FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6614,
+          -26.8831
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1717FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Navegantes / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1717FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1232PRC-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6389,
+          -26.9748
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1232PRC-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1232PRC-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6402,
+          -26.9433
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0014 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0014",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0272 Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6518,
+          -26.9944
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0272 Q2 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0272 Q2",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0273 Q3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6518,
+          -26.9944
+        ]
+      },
+      "properties": {
+        "name": "NICKY 0273 Q3 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "0273 Q3",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1235RFS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6459,
+          -27.0008
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1235RFS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1235RFS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1299RFS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6306,
+          -26.9481
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1299RFS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1299RFS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1190RFS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6537,
+          -26.92
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1190RFS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1190RFS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1199FS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6398,
+          -26.9439
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1199FS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itajaí / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1199FS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1430PRC-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6099,
+          -27.1154
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1430PRC-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Itapema / Santa Catarina<br>ECMWF P≥36: 99,5% | P≥54: 1,6% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1430PRC-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1715PRC-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7083,
+          -26.835
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1715PRC-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Penha / Santa Catarina<br>ECMWF P≥36: 2,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1715PRC-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1809TS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6207,
+          -26.793
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1809TS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Penha / Santa Catarina<br>ECMWF P≥36: 98,5% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1809TS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1280TS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6431,
+          -26.9839
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1280TS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF + GEFS<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 3,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: 0,0% | P≥54: 0,0% | P≥90: 0,0%<br>Concordância: Alta<br>Ação: Rotina operacional",
+        "code": "1280TS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF + GEFS",
+        "concordancia": "Alta",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-10-27 00:00:00 UTC",
+        "rodada_gefs": "20261027 06:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    }
+  ]
+}
+
