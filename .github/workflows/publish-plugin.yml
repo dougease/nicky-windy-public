@@ -1,0 +1,39 @@
+name: Publicar plugin Nicky no Windy
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nicky-windy-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: plugins/nicky
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Instalar dependências com versões travadas
+        run: |
+          npm install --global pnpm@11.25.0 --ignore-scripts
+          pnpm install --frozen-lockfile --ignore-scripts
+      - name: Testar as regras de risco
+        run: pnpm test
+      - name: Compilar plugin
+        run: pnpm run build
+      - name: Publicar plugin privado no Windy
+        env:
+          WINDY_API_KEY: ${{ secrets.WINDY_API_KEY }}
+        run: node scripts/publish.mjs

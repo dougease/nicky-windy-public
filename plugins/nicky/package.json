@@ -1,0 +1,28 @@
+{
+  "name": "windy-plugin-nicky",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "rollup -w -c",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@windycom/plugin-devtools": "3.0.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@rollup/plugin-terser": "~0.4.4",
+    "rollup": "4.65.1",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-serve": "^1.1.1",
+    "rollup-plugin-svelte": "^7.2.3",
+    "rollup-plugin-swc3": "~0.11.2",
+    "svelte": "^4.2.20",
+    "svelte-preprocess": "^5.1.4",
+    "svelte-preprocess-less": "~0.4.0",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,4 @@
+allowBuilds:
+  '@swc/core': false
+  svelte-preprocess: false
+  unrs-resolver: false
