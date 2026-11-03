@@ -25,9 +25,12 @@ arquivo_base <- file.path(pasta_dados, "paineis_analytics_atual.xlsx")
 if (!file.exists(arquivo_base)) {
   arquivo_base <- file.path(pasta_dados, "paineis_analytics.xlsx")
 }
+arquivo_geojson_local <- file.path(pasta_dados, "Nicky_Analytics_Shiny", "www",
+                                   "windy", "paineis_nicky.geojson")
+arquivo_geojson_publico <- file.path(pasta_repo, "paineis_nicky.geojson")
 arquivo_pagina <- file.path(pasta_publica, "index.html")
 
-for (caminho in c(arquivo_ecmwf, arquivo_gefs, arquivo_base)) {
+for (caminho in c(arquivo_ecmwf, arquivo_gefs)) {
   if (!file.exists(caminho)) stop("Arquivo necessario ausente: ", caminho)
 }
 if (!file.exists(arquivo_pagina)) {
@@ -86,11 +89,33 @@ if (!identical(e$RODADA_UTC[[1]], g$RODADA_UTC[[1]])) {
   stop("Rodadas UTC diferentes entre ECMWF e GEFS. Aguardar sincronizacao.")
 }
 
-base <- tryCatch(
+base <- if (file.exists(arquivo_base)) tryCatch(
   as.data.frame(readxl::read_excel(arquivo_base, sheet = "PAINEIS_ANALYTICS")),
-  error = function(err) as.data.frame(readxl::read_excel(arquivo_base, sheet = 1)))
-if (!all(c("code", "latitude", "longitude") %in% names(base))) {
-  stop("Base precisa conter code, latitude e longitude.")
+  error = function(err) as.data.frame(readxl::read_excel(arquivo_base, sheet = 1))
+) else data.frame()
+if (!all(c("code", "latitude", "longitude") %in% names(base)) || !nrow(base)) {
+  # O GeoJSON existente publica somente os mesmos códigos e coordenadas.
+  # Nunca inferir uma posição a partir dos arquivos de previsão.
+  origem <- c(arquivo_geojson_local, arquivo_geojson_publico)
+  origem <- origem[file.exists(origem)][1]
+  if (!length(origem) || is.na(origem)) {
+    stop("Base sem coordenadas e GeoJSON existente não encontrado.")
+  }
+  mapa <- jsonlite::fromJSON(origem, simplifyVector = FALSE)
+  if (!identical(mapa$type, "FeatureCollection") || !length(mapa$features)) {
+    stop("GeoJSON de referência inválido.")
+  }
+  base <- do.call(rbind, lapply(mapa$features, function(f) {
+    if (!identical(f$geometry$type, "Point") ||
+        length(f$geometry$coordinates) != 2L) stop("Geometria inválida.")
+    data.frame(
+      code = as.character(f$properties$code),
+      latitude = as.numeric(f$geometry$coordinates[[2]]),
+      longitude = as.numeric(f$geometry$coordinates[[1]]),
+      stringsAsFactors = FALSE
+    )
+  }))
+  message("Planilha sem coordenadas; usando códigos e posições de ", origem)
 }
 base$code <- trimws(as.character(base$code))
 numero <- function(x) suppressWarnings(as.numeric(gsub(",", ".", as.character(x), fixed = TRUE)))
