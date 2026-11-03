@@ -41,10 +41,10 @@ arquivo_geojson <- file.path(pasta_windy, "paineis_nicky.geojson")
 # Repositório público separado. NÃO publique a pasta Nicky_Analytics_Shiny.
 pasta_repo_publico <- Sys.getenv(
   "NICKY_WINDY_PUBLIC_REPO",
-  unset = file.path(pasta_dados, "Nicky_Windy_Public")
+  unset = file.path(pasta_dados, "Nicky_Windy_Public", "automacao", "repo")
 )
 gerador_72h <- file.path(pasta_repo_publico, "scripts", "gerar_windy_72h.R")
-arquivo_json_72h <- file.path(pasta_repo_publico, "docs", "windy", "risco_72h.json")
+arquivo_json_72h <- file.path(pasta_dados, "risco_72h.json")
 # Destino remoto: dougease/nicky-windy-public, main, paineis_nicky.geojson
 arquivo_estado <- file.path(pasta_dados, "estado_alertas_meteorologicos.csv")
 arquivo_eventos <- file.path(pasta_dados, "historico_alertas_meteorologicos.csv")
@@ -108,50 +108,28 @@ publicar_geojson_github <- function() {
   if (!file.exists(script_publicador)) stop("Publicador ausente: ", script_publicador)
   powershell <- file.path(Sys.getenv("SystemRoot", "C:/Windows"),
                           "System32", "WindowsPowerShell", "v1.0", "powershell.exe")
-  pasta_trabalho <- file.path(pasta_repo_publico, "automacao")
+  pasta_trabalho <- dirname(pasta_repo_publico)
   status <- system2(powershell, c(
     "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass",
     "-File", shQuote(script_publicador),
     "-Source", shQuote(arquivo_geojson),
+    "-JsonSource", shQuote(arquivo_json_72h),
     "-WorkingDirectory", shQuote(pasta_trabalho)
   ), stdout = "", stderr = "")
   identical(as.integer(status), 0L)
 }
 
-publicar_json_github <- function() {
-  if (!file.exists(arquivo_json_72h)) stop("JSON de 72 h ausente: ", arquivo_json_72h)
-  git <- Sys.which("git")
-  if (!nzchar(git) || !dir.exists(file.path(pasta_repo_publico, ".git"))) {
-    stop("Git ou repositório Nicky_Windy_Public indisponível.")
-  }
-  comando <- function(args, permitir_sem_alteracao = FALSE) {
-    saida <- suppressWarnings(system2(git,
-      c("-C", shQuote(pasta_repo_publico), args), stdout = TRUE, stderr = TRUE))
-    status <- attr(saida, "status")
-    if (is.null(status)) status <- 0L
-    if (status != 0L && !(permitir_sem_alteracao && status == 1L)) {
-      stop("Git falhou (", status, "): ", paste(saida, collapse = "\n"))
-    }
-    status
-  }
-  comando(c("add", "--", "docs/windy/risco_72h.json"))
-  alterado <- comando(c("diff", "--cached", "--quiet", "--",
-                       "docs/windy/risco_72h.json"), permitir_sem_alteracao = TRUE)
-  if (alterado == 1L) {
-    comando(c("commit", "-m", shQuote("Atualiza risco Windy 72 h"),
-              "--", "docs/windy/risco_72h.json"))
-    comando(c("push", "origin", "HEAD:main"))
-  }
-  message("Windy: JSON de 72 h confirmado no repositório.")
-  TRUE
-}
-
 gerar_json_72h <- function() {
   if (!file.exists(gerador_72h)) stop("Gerador ausente: ", gerador_72h)
   modo_anterior <- Sys.getenv("NICKY_WINDY_GIT_PUBLISH", unset = NA_character_)
-  Sys.setenv(NICKY_WINDY_GIT_PUBLISH = "0")
-  on.exit(if (is.na(modo_anterior)) Sys.unsetenv("NICKY_WINDY_GIT_PUBLISH")
-          else Sys.setenv(NICKY_WINDY_GIT_PUBLISH = modo_anterior))
+  saida_anterior <- Sys.getenv("NICKY_WINDY_JSON_OUT", unset = NA_character_)
+  Sys.setenv(NICKY_WINDY_GIT_PUBLISH = "0", NICKY_WINDY_JSON_OUT = arquivo_json_72h)
+  on.exit({
+    if (is.na(modo_anterior)) Sys.unsetenv("NICKY_WINDY_GIT_PUBLISH")
+    else Sys.setenv(NICKY_WINDY_GIT_PUBLISH = modo_anterior)
+    if (is.na(saida_anterior)) Sys.unsetenv("NICKY_WINDY_JSON_OUT")
+    else Sys.setenv(NICKY_WINDY_JSON_OUT = saida_anterior)
+  })
   source(gerador_72h, local = new.env(parent = globalenv()), encoding = "UTF-8")
   if (!file.exists(arquivo_json_72h)) stop("Gerador não produziu o JSON.")
 }
@@ -213,22 +191,6 @@ if (!is.null(estado_publicacao) && nrow(estado_publicacao) > 0 &&
   }
 }
 
-# Uma falha de rede nao exige gerar novamente os modelos. Reenvia a
-# fotografia existente e preserva os identificadores do baseline anterior.
-if (!pronto_para_publicar && publicar_git &&
-    isTRUE(precisa_primeira_publicacao_git)) {
-  if (!file.exists(arquivo_geojson)) stop("GeoJSON pendente nao encontrado.")
-  if (!publicar_geojson_github()) stop("GitHub: reenvio nao confirmado.")
-  gravar_estado_publicacao(
-    tail(estado_publicacao$ECMWF_MTIME, 1),
-    tail(estado_publicacao$GEFS_MTIME, 1),
-    if ("RODADA_ECMWF_UTC" %in% names(estado_publicacao)) tail(estado_publicacao$RODADA_ECMWF_UTC, 1) else "",
-    if ("RODADA_GEFS_UTC" %in% names(estado_publicacao)) tail(estado_publicacao$RODADA_GEFS_UTC, 1) else "",
-    git_publicado = TRUE,
-    janelas_ecmwf_mtime = ultimo_mtime("ECMWF_JANELAS_MTIME"),
-    janelas_gefs_mtime = ultimo_mtime("GEFS_JANELAS_MTIME")
-  )
-}
 if (pronto_para_publicar) {
   base_atual <- if (file.exists(arquivo_base)) arquivo_base else arquivo_base_fallback
   amostra_base <- if (file.exists(base_atual)) {
@@ -241,16 +203,11 @@ if (pronto_para_publicar) {
     pronto_para_publicar <- FALSE
   }
 }
-if (publicar_git && (novas_janelas || pronto_para_publicar)) {
-  # Sincroniza primeiro: o JSON já pode existir no remoto e ainda não
-  # existir nesta cópia Windows. Evita conflito com arquivo não rastreado.
-  if (!publicar_geojson_github()) stop("Sincronização prévia do repositório falhou.")
-}
 if (novas_janelas && !pronto_para_publicar) {
   # Atualiza só as janelas; não reescreve alertas, histórico nem o GeoJSON.
   gerar_json_72h()
   if (publicar_git) {
-    publicar_json_github()
+    if (!publicar_geojson_github()) stop("Publicação de 72 h falhou.")
   }
   gravar_estado_publicacao(
     ultimo_mtime("ECMWF_MTIME"), ultimo_mtime("GEFS_MTIME"),
@@ -351,7 +308,6 @@ if (pronto_para_publicar) {
   publicacao_git_ok <- !publicar_git
   if (publicar_git) {
     publicacao_git_ok <- publicar_geojson_github()
-    if (publicacao_git_ok) publicacao_git_ok <- publicar_json_github()
   }
   if (publicar_git && !publicacao_git_ok) {
     stop("GitHub: envio nao confirmado. O estado de publicacao nao foi avancado; a proxima execucao tentara novamente.")
