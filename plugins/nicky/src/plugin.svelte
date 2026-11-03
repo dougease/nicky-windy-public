@@ -1,7 +1,7 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
   import { map } from '@windy/map';
-  import { store } from '@windy/store';
+  import store from '@windy/store';
   import { RISKS, prepare, pinSvg, popupHtml } from './pins.mjs';
   import { LEVELS, prepareWindow, popupWindowHtml, selectWindow, utcMillis, validateRisk72 } from './risk72.mjs';
 
