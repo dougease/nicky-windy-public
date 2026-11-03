@@ -33,6 +33,6 @@ pnpm test
 pnpm run build
 ```
 
-A validação pode ser disparada na branch pelo workflow **Validar plugin Nicky**. A versão 0.2.0 deve ser publicada somente após existir um JSON atual e válido no repositório. Na branch `main`, o workflow **Publicar plugin Nicky no Windy** usa o segredo `WINDY_API_KEY` do GitHub Actions, do produto **Windy Plugins API**. O link de instalação é entregue no resumo da execução. A versão 0.1.0 publicada continua ativa até essa publicação; não republicar uma versão com o mesmo número.
+A validação pode ser disparada na branch pelo workflow **Validar plugin Nicky**. A versão 0.2.0 pode ser publicada antes do primeiro JSON: enquanto ele estiver ausente, preserva a fotografia anterior com aviso explícito de que a barra de tempo não altera essas cores. Quando o JSON válido chegar, a próxima atualização muda automaticamente para as três janelas. Na branch `main`, o workflow **Publicar plugin Nicky no Windy** usa o segredo `WINDY_API_KEY` do GitHub Actions, do produto **Windy Plugins API**. O link de instalação é entregue no resumo da execução. A versão 0.1.0 publicada continua ativa até essa publicação; não republicar uma versão com o mesmo número.
 
 Documentação oficial: https://docs.windy-plugins.com/getting-started/publishing-plugin.html
