@@ -1,86 +1,38 @@
-# Nicky OOH — pins por risco dentro do Windy
+# Nicky OOH — risco de rajadas no Windy (72 h)
 
-Esta é uma integração pelo sistema oficial de plugins do Windy, não um arquivo para o carregador de GeoJSON/KML.
+Plugin privado do Windy. Os pins usam a janela de 24 horas que contém o horário selecionado na barra de tempo: 0–24, 24–48 ou 48–72 h da rodada UTC. A troca ocorre nas fronteiras de 24 horas, não a cada hora.
 
-## O que está implementado
+## Fonte operacional
 
-- Pins SVG desenhados diretamente na instância de mapa do Windy.
-- Normal #2E8B57; Atenção #E1C542; Preparação #FF9900; Alerta #E85D04; Crítico #C94C4C.
-- Leitura da fonte atual: https://raw.githubusercontent.com/dougease/nicky-windy-public/main/paineis_nicky.geojson
-- Atualização de cinco em cinco minutos enquanto o plugin está aberto em modo operacional.
-- Risco desconhecido em cinza, nunca convertido automaticamente para Normal.
-- Painéis no mesmo par de coordenadas agrupados, com quantidade no pin e maior risco conhecido. Popup lista todos os painéis.
-- Erros de rede ou arquivo inválido preservam os pins anteriores e exibem falha de atualização.
-- Data de geração e horário da leitura visíveis; os dados podem estar antigos mesmo quando o download funciona.
-- Botão de teste com cinco coordenadas reais e riscos simulados, identificado como TESTE. Para retomar a atualização, usar Dados atuais.
-- Abrir o plugin não força zoom, modelo nem camada do Windy. O botão Localizar painéis move a visualização para a região, zoom 10.
+O plugin consulta `docs/windy/risco_72h.json` deste repositório público a cada cinco minutos. O arquivo é gerado por `scripts/gerar_windy_72h.R` **no computador que contém as previsões locais**. O script exige:
 
-A classificação vem do gerador Nicky; não é calculada a partir do vento sob o cursor. Mover a linha do tempo do Windy não altera a classificação recebida. A manutenção da fonte e sua publicação seguem no fluxo já existente.
+- `previsao_rajadas_ecmwf_janelas.csv` e `previsao_rajadas_gefs_janelas.csv` completos, da mesma rodada UTC;
+- `paineis_analytics_atual.xlsx` (ou `paineis_analytics.xlsx`) com códigos e coordenadas;
+- três janelas completas por painel e rodada com no máximo 36 horas.
 
-## Como testar no Windy
+O gerador grava o JSON em `docs/windy`. A tarefa do Windows deve executá-lo depois que **ambos** os modelos terminarem. Defina `NICKY_WINDY_GIT_PUBLISH=1` no ambiente dessa tarefa para fazer commit e push automático. A conta que roda a tarefa precisa ter autenticação Git para escrever neste repositório. Sem isso, o JSON fica somente no computador e o plugin não recebe novas previsões.
 
-Com Node.js instalado, abrir um terminal nesta pasta:
+## Classificação
 
-```text
-npm install
-npm test
-npm run build
-npm start
+| Cor | Regra de triagem |
+| --- | --- |
+| Verde — Acompanhar | Nenhuma das duas condições abaixo |
+| Laranja — Verificar ≥54 km/h | P(≥54 km/h) ≥30% em pelo menos um modelo |
+| Vermelho — Verificar ≥90 km/h | P(≥90 km/h) ≥10% em pelo menos um modelo |
+
+O maior nível entre ECMWF e GEFS prevalece. O popup mostra os dois percentuais por modelo e limiar. Não há interpolação horária, e a camada animada de vento do Windy pode usar outro modelo ou rodada. A triagem não dispensa alertas oficiais e o protocolo de segurança dos painéis.
+
+O plugin rejeita JSON incompatível, coordenadas e probabilidades inválidas e rodadas vencidas. Fora de 0–72 h ou após 36 h sem nova rodada, remove os pins classificados em vez de mostrar risco antigo como atual. Uma falha temporária de rede preserva a última leitura válida até o vencimento.
+
+## Teste e publicação
+
+```sh
+cd plugins/nicky
+pnpm install --frozen-lockfile
+pnpm test
+pnpm run build
 ```
 
-Se usar pnpm, a versão 11 pode pedir autorização de scripts de dependências; siga a política da sua instalação. Não é necessário atualizar os pacotes para usar este projeto.
+A validação pode ser disparada na branch pelo workflow **Validar plugin Nicky**. A versão 0.2.0 deve ser publicada somente após existir um JSON atual e válido no repositório. Na branch `main`, o workflow **Publicar plugin Nicky no Windy** usa o segredo `WINDY_API_KEY` do GitHub Actions, do produto **Windy Plugins API**. O link de instalação é entregue no resumo da execução. A versão 0.1.0 publicada continua ativa até essa publicação; não republicar uma versão com o mesmo número.
 
-O servidor de desenvolvimento usa HTTPS local, apenas em localhost:9999. A documentação oficial descreve a etapa manual de certificado local; qualquer decisão no aviso do navegador fica com o usuário/desenvolvedor:
-https://docs.windy-plugins.com/getting-started/debugging.html
-
-Abrir https://www.windy.com/developer-mode e carregar https://localhost:9999/plugin.js.
-
-1. Fechar a importação GeoJSON antiga para evitar pins duplicados.
-2. Selecionar Vento no Windy e manter um zoom regional, como 8 ou 9.
-3. Abrir o plugin. Verificar geração da fonte e pins operacionais.
-4. Clicar em Testar 5 cores e verificar todos os pins. Mover o mapa/zoom se necessário.
-5. Clicar em Dados atuais para sair da simulação.
-6. Testar um local com painéis coincidentes e conferir o popup.
-7. Conferir mudança de camada, arraste e zoom; o plugin não deve selecionar Outdoor nem modificar o fundo.
-8. Verificar falha de conexão e preservação da leitura anterior.
-
-O próprio Windy pode passar para um fundo detalhado ao aproximar o mapa. Sua documentação descreve a transição em zoom alto; isso não é configurado pelo GeoJSON nem pelo plugin.
-
-## Publicação para uso cotidiano
-
-No repositório dougease/nicky-windy-public, o projeto fica em plugins/nicky.
-Os workflows da pasta github-workflows deste pacote devem ficar na raiz do
-repositório, em .github/workflows. A validação é executada nas alterações do
-plugin; atualizações apenas do GeoJSON não acionam esse processo.
-
-Em Settings → Secrets and variables → Actions, cadastrar WINDY_API_KEY como
-Repository secret, com a chave Windy Plugins API. O segredo é usado apenas na
-etapa final do workflow manual “Publicar plugin Nicky no Windy”. Depois de
-salvar o segredo, executar esse workflow pela aba Actions, branch main. A URL
-retornada pelo Windy fica no resumo da execução. Não reenviar a mesma versão;
-para corrigir uma versão já publicada, aumentar version em src/pluginConfig.ts
-e package.json e publicar de novo.
-
-A compilação gera dist/plugin.js, dist/plugin.min.js e dist/plugin.json. O modo de desenvolvimento serve para homologação; não é a instalação permanente.
-
-Para distribuir como plugin privado é necessária uma chave **Windy Plugins API**, da conta responsável, e publicação no serviço oficial. A assinatura Windy Premium não substitui essa etapa. Nenhuma chave foi criada e nenhuma publicação foi feita por este pacote.
-
-O campo private:true retira o plugin da galeria pública, mas não é um controle de acesso aos dados. A fonte atual já é pública.
-
-Guia oficial para publicação: https://docs.windy-plugins.com/getting-started/publishing-plugin.html
-Caso o endereço tenha sido alterado, acessar Publishing your plugin no menu de https://docs.windy-plugins.com/.
-
-Não inserir chaves no código nem enviar por chat. Publicar por fluxo oficial com segredo protegido ou ambiente local do desenvolvedor. Um plugin privado não requer solicitar inclusão na galeria pública.
-
-## Limites da entrega
-
-Os testes locais verificam cores, agrupamento, validação dos dados e separação de simulação. A execução real sobre a instância do mapa Windy depende da homologação acima; compilação não confirma integração visual em produção. O plugin só atualiza enquanto está aberto; fechar o navegador não interrompe o gerador Nicky, mas interrompe esta visualização.
-
-## Referências técnicas
-
-- Template oficial consultado: https://github.com/windycom/windy-plugin-template (v5.0.1 na consulta)
-- Guia: https://docs.windy-plugins.com/getting-started/
-- Exemplo de ícone SVG: examples/03-boat-tracker/boatIcon.ts do template oficial.
-- Código de compilação rollup.config.js, tsconfig.json e svelte.config.js derivados do template oficial Windyty (ISC).
-
-Estado de validação específico desta entrega: ver VALIDACAO.txt.
+Documentação oficial: https://docs.windy-plugins.com/getting-started/publishing-plugin.html
