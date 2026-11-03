@@ -1,6 +1,6 @@
 # ============================================================
 # NICKY OOH - GERADOR AUTOMATICO PARA WINDY
-# Versao 1.3 - GeoJSON e janelas de risco 72 h no mesmo agendamento
+# Versao 1.4 - mantém a publicação atual e acrescenta janelas de 72 h
 # ============================================================
 # Fluxo recomendado:
 #   atualizar_ecmwf.R -> atualizar_gefs.R -> este script
@@ -43,11 +43,9 @@ pasta_repo_publico <- Sys.getenv(
   "NICKY_WINDY_PUBLIC_REPO",
   unset = file.path(pasta_dados, "Nicky_Windy_Public")
 )
-destino_geojson_publico <- file.path(
-  pasta_repo_publico, "docs", "windy", "paineis_nicky.geojson"
-)
-destino_json_72h <- file.path(pasta_repo_publico, "docs", "windy", "risco_72h.json")
 gerador_72h <- file.path(pasta_repo_publico, "scripts", "gerar_windy_72h.R")
+arquivo_json_72h <- file.path(pasta_repo_publico, "docs", "windy", "risco_72h.json")
+# Destino remoto: dougease/nicky-windy-public, main, paineis_nicky.geojson
 arquivo_estado <- file.path(pasta_dados, "estado_alertas_meteorologicos.csv")
 arquivo_eventos <- file.path(pasta_dados, "historico_alertas_meteorologicos.csv")
 arquivo_estado_publicacao <- file.path(pasta_dados, "estado_publicacao_windy.csv")
@@ -81,13 +79,14 @@ ler_estado_publicacao <- function() {
 }
 
 gravar_estado_publicacao <- function(ecmwf_mtime, gefs_mtime, rodada_ecmwf, rodada_gefs,
-                                    git_publicado, ecmwf_janelas_mtime, gefs_janelas_mtime) {
+                                    git_publicado, janelas_ecmwf_mtime = NA_real_,
+                                    janelas_gefs_mtime = NA_real_) {
   estado <- data.frame(
     PUBLICADO_EM = format(Sys.time(), "%Y-%m-%d %H:%M:%S", tz = "America/Sao_Paulo"),
     ECMWF_MTIME = ecmwf_mtime,
     GEFS_MTIME = gefs_mtime,
-    ECMWF_JANELAS_MTIME = ecmwf_janelas_mtime,
-    GEFS_JANELAS_MTIME = gefs_janelas_mtime,
+    ECMWF_JANELAS_MTIME = janelas_ecmwf_mtime,
+    GEFS_JANELAS_MTIME = janelas_gefs_mtime,
     RODADA_ECMWF_UTC = as.character(rodada_ecmwf %||% ""),
     RODADA_GEFS_UTC = as.character(rodada_gefs %||% ""),
     GIT_PUBLICADO = as.integer(isTRUE(git_publicado)),
@@ -101,23 +100,86 @@ gravar_estado_publicacao <- function(ecmwf_mtime, gefs_mtime, rodada_ecmwf, roda
 }
 
 # Publicação Git pode ser habilitada depois do baseline local.
-publicar_git <- identical(Sys.getenv("NICKY_WINDY_GIT_PUBLISH", unset = "0"), "1")
+publicar_git <- identical(Sys.getenv("NICKY_WINDY_GIT_PUBLISH", unset = "1"), "1")
 
+# Publicador sem IA, chamado pelo mesmo agendamento que gera o GeoJSON.
+publicar_geojson_github <- function() {
+  script_publicador <- file.path(pasta_dados, "sincronizar-windy.ps1")
+  if (!file.exists(script_publicador)) stop("Publicador ausente: ", script_publicador)
+  powershell <- file.path(Sys.getenv("SystemRoot", "C:/Windows"),
+                          "System32", "WindowsPowerShell", "v1.0", "powershell.exe")
+  pasta_trabalho <- file.path(pasta_repo_publico, "automacao")
+  status <- system2(powershell, c(
+    "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass",
+    "-File", shQuote(script_publicador),
+    "-Source", shQuote(arquivo_geojson),
+    "-WorkingDirectory", shQuote(pasta_trabalho)
+  ), stdout = "", stderr = "")
+  identical(as.integer(status), 0L)
+}
+
+publicar_json_github <- function() {
+  if (!file.exists(arquivo_json_72h)) stop("JSON de 72 h ausente: ", arquivo_json_72h)
+  git <- Sys.which("git")
+  if (!nzchar(git) || !dir.exists(file.path(pasta_repo_publico, ".git"))) {
+    stop("Git ou repositório Nicky_Windy_Public indisponível.")
+  }
+  comando <- function(args, permitir_sem_alteracao = FALSE) {
+    saida <- suppressWarnings(system2(git,
+      c("-C", shQuote(pasta_repo_publico), args), stdout = TRUE, stderr = TRUE))
+    status <- attr(saida, "status")
+    if (is.null(status)) status <- 0L
+    if (status != 0L && !(permitir_sem_alteracao && status == 1L)) {
+      stop("Git falhou (", status, "): ", paste(saida, collapse = "\n"))
+    }
+    status
+  }
+  comando(c("add", "--", "docs/windy/risco_72h.json"))
+  alterado <- comando(c("diff", "--cached", "--quiet", "--",
+                       "docs/windy/risco_72h.json"), permitir_sem_alteracao = TRUE)
+  if (alterado == 1L) {
+    comando(c("commit", "-m", shQuote("Atualiza risco Windy 72 h"),
+              "--", "docs/windy/risco_72h.json"))
+    comando(c("push", "origin", "HEAD:main"))
+  }
+  message("Windy: JSON de 72 h confirmado no repositório.")
+  TRUE
+}
+
+gerar_json_72h <- function() {
+  if (!file.exists(gerador_72h)) stop("Gerador ausente: ", gerador_72h)
+  modo_anterior <- Sys.getenv("NICKY_WINDY_GIT_PUBLISH", unset = NA_character_)
+  Sys.setenv(NICKY_WINDY_GIT_PUBLISH = "0")
+  on.exit(if (is.na(modo_anterior)) Sys.unsetenv("NICKY_WINDY_GIT_PUBLISH")
+          else Sys.setenv(NICKY_WINDY_GIT_PUBLISH = modo_anterior))
+  source(gerador_72h, local = new.env(parent = globalenv()), encoding = "UTF-8")
+  if (!file.exists(arquivo_json_72h)) stop("Gerador não produziu o JSON.")
+}
 # ============================================================
 # 1. PRE-CHECAGEM DOS ARQUIVOS DE MODELO
 # ============================================================
 
 if (!file.exists(arquivo_ecmwf)) stop("Arquivo ECMWF não encontrado: ", arquivo_ecmwf)
 if (!file.exists(arquivo_gefs)) stop("Arquivo GEFS não encontrado: ", arquivo_gefs)
-if (!file.exists(arquivo_ecmwf_janelas)) stop("Janelas ECMWF não encontradas: ", arquivo_ecmwf_janelas)
-if (!file.exists(arquivo_gefs_janelas)) stop("Janelas GEFS não encontradas: ", arquivo_gefs_janelas)
-if (!file.exists(gerador_72h)) stop("Gerador de 72 h não encontrado: ", gerador_72h)
+if (!file.exists(arquivo_ecmwf_janelas)) stop("CSV ECMWF não encontrado: ", arquivo_ecmwf_janelas)
+if (!file.exists(arquivo_gefs_janelas)) stop("CSV GEFS não encontrado: ", arquivo_gefs_janelas)
 
 mtime_ecmwf <- mtime_num(arquivo_ecmwf)
 mtime_gefs <- mtime_num(arquivo_gefs)
 mtime_ecmwf_janelas <- mtime_num(arquivo_ecmwf_janelas)
 mtime_gefs_janelas <- mtime_num(arquivo_gefs_janelas)
 estado_publicacao <- ler_estado_publicacao()
+
+ultimo_mtime <- function(coluna) {
+  if (is.null(estado_publicacao) || !nrow(estado_publicacao) ||
+      !coluna %in% names(estado_publicacao)) return(NA_real_)
+  suppressWarnings(as.numeric(tail(estado_publicacao[[coluna]], 1)))
+}
+novas_janelas <- !file.exists(arquivo_json_72h) ||
+  (!is.finite(ultimo_mtime("ECMWF_JANELAS_MTIME")) ||
+   mtime_ecmwf_janelas > ultimo_mtime("ECMWF_JANELAS_MTIME") + 0.5) &&
+  (!is.finite(ultimo_mtime("GEFS_JANELAS_MTIME")) ||
+   mtime_gefs_janelas > ultimo_mtime("GEFS_JANELAS_MTIME") + 0.5)
 
 # Na primeira execução, aceita os dois arquivos atuais e cria o baseline.
 # Nas seguintes, ambos precisam ter sido modificados depois da publicação anterior.
@@ -137,50 +199,74 @@ if (!is.null(estado_publicacao) && nrow(estado_publicacao) > 0 &&
   }
   precisa_primeira_publicacao_git <- publicar_git && !identical(ultimo_git_publicado, 1L)
 
-  pronto_para_publicar <- (isTRUE(ecmwf_novo) && isTRUE(gefs_novo)) ||
-    isTRUE(precisa_primeira_publicacao_git)
+  pronto_para_publicar <- isTRUE(ecmwf_novo) && isTRUE(gefs_novo)
 
   if (precisa_primeira_publicacao_git && !(ecmwf_novo && gefs_novo)) {
-    message("Windy: publicação Git ainda não inicializada; será usado o baseline local atual para o primeiro envio público.")
+    message("Windy: ha envio pendente; sera usada a fotografia GeoJSON existente, sem misturar novas rodadas.")
   }
 
   if (!pronto_para_publicar) {
     message("Windy: publicação adiada porque os dois modelos ainda não foram atualizados desde a última publicação.")
     message("ECMWF novo: ", ecmwf_novo, " | modificado em: ", format(file.info(arquivo_ecmwf)$mtime, "%d/%m/%Y %H:%M:%S"))
     message("GEFS novo: ", gefs_novo, " | modificado em: ", format(file.info(arquivo_gefs)$mtime, "%d/%m/%Y %H:%M:%S"))
-    message("A fotografia do GeoJSON não mudou; verificando se há novas janelas de 72 h.")
+    message("Nenhum GeoJSON público, estado de alerta ou histórico foi alterado nesta execução.")
   }
 }
 
-ultimo_ecmwf_janelas <- if (!is.null(estado_publicacao) && nrow(estado_publicacao) > 0 &&
-    "ECMWF_JANELAS_MTIME" %in% names(estado_publicacao)) {
-  suppressWarnings(as.numeric(tail(estado_publicacao$ECMWF_JANELAS_MTIME, 1)))
-} else NA_real_
-ultimo_gefs_janelas <- if (!is.null(estado_publicacao) && nrow(estado_publicacao) > 0 &&
-    "GEFS_JANELAS_MTIME" %in% names(estado_publicacao)) {
-  suppressWarnings(as.numeric(tail(estado_publicacao$GEFS_JANELAS_MTIME, 1)))
-} else NA_real_
-janelas_novas <- !file.exists(destino_json_72h) ||
-  (is.finite(mtime_ecmwf_janelas) && is.finite(mtime_gefs_janelas) &&
-   (!is.finite(ultimo_ecmwf_janelas) ||
-      mtime_ecmwf_janelas > ultimo_ecmwf_janelas + 0.5) &&
-   (!is.finite(ultimo_gefs_janelas) ||
-      mtime_gefs_janelas > ultimo_gefs_janelas + 0.5))
-pronto_para_publicar <- pronto_para_publicar || janelas_novas
-
-if (pronto_para_publicar) {
-  # Validar e gerar o JSON ANTES de alterar os alertas e o histórico.
-  # O gerador não faz push aqui: os dois arquivos públicos seguem no mesmo commit.
-  modo_git_anterior <- Sys.getenv("NICKY_WINDY_GIT_PUBLISH", unset = NA_character_)
-  Sys.setenv(NICKY_WINDY_GIT_PUBLISH = "0")
-  tryCatch(
-    source(gerador_72h, local = new.env(parent = globalenv()), encoding = "UTF-8"),
-    finally = if (is.na(modo_git_anterior)) {
-      Sys.unsetenv("NICKY_WINDY_GIT_PUBLISH")
-    } else {
-      Sys.setenv(NICKY_WINDY_GIT_PUBLISH = modo_git_anterior)
-    }
+# Uma falha de rede nao exige gerar novamente os modelos. Reenvia a
+# fotografia existente e preserva os identificadores do baseline anterior.
+if (!pronto_para_publicar && publicar_git &&
+    isTRUE(precisa_primeira_publicacao_git)) {
+  if (!file.exists(arquivo_geojson)) stop("GeoJSON pendente nao encontrado.")
+  if (!publicar_geojson_github()) stop("GitHub: reenvio nao confirmado.")
+  gravar_estado_publicacao(
+    tail(estado_publicacao$ECMWF_MTIME, 1),
+    tail(estado_publicacao$GEFS_MTIME, 1),
+    if ("RODADA_ECMWF_UTC" %in% names(estado_publicacao)) tail(estado_publicacao$RODADA_ECMWF_UTC, 1) else "",
+    if ("RODADA_GEFS_UTC" %in% names(estado_publicacao)) tail(estado_publicacao$RODADA_GEFS_UTC, 1) else "",
+    git_publicado = TRUE,
+    janelas_ecmwf_mtime = ultimo_mtime("ECMWF_JANELAS_MTIME"),
+    janelas_gefs_mtime = ultimo_mtime("GEFS_JANELAS_MTIME")
   )
+}
+if (pronto_para_publicar) {
+  base_atual <- if (file.exists(arquivo_base)) arquivo_base else arquivo_base_fallback
+  amostra_base <- if (file.exists(base_atual)) {
+    tryCatch(readxl::read_excel(base_atual, sheet = "PAINEIS_ANALYTICS",
+                               n_max = 1), error = function(e) NULL)
+  } else NULL
+  if (is.null(amostra_base) || !nrow(amostra_base) ||
+      !all(c("code", "latitude", "longitude") %in% names(amostra_base))) {
+    message("Planilha de painéis sem coordenadas: fotografia GeoJSON preservada.")
+    pronto_para_publicar <- FALSE
+  }
+}
+if (publicar_git && (novas_janelas || pronto_para_publicar)) {
+  # Sincroniza primeiro: o JSON já pode existir no remoto e ainda não
+  # existir nesta cópia Windows. Evita conflito com arquivo não rastreado.
+  if (!publicar_geojson_github()) stop("Sincronização prévia do repositório falhou.")
+}
+if (novas_janelas && !pronto_para_publicar) {
+  # Atualiza só as janelas; não reescreve alertas, histórico nem o GeoJSON.
+  gerar_json_72h()
+  if (publicar_git) {
+    publicar_json_github()
+  }
+  gravar_estado_publicacao(
+    ultimo_mtime("ECMWF_MTIME"), ultimo_mtime("GEFS_MTIME"),
+    if ("RODADA_ECMWF_UTC" %in% names(estado_publicacao))
+      tail(estado_publicacao$RODADA_ECMWF_UTC, 1) else "",
+    if ("RODADA_GEFS_UTC" %in% names(estado_publicacao))
+      tail(estado_publicacao$RODADA_GEFS_UTC, 1) else "",
+    git_publicado = publicar_git,
+    janelas_ecmwf_mtime = mtime_ecmwf_janelas,
+    janelas_gefs_mtime = mtime_gefs_janelas
+  )
+  message("Windy: janelas de 72 h publicadas sem alterar a fotografia operacional.")
+}
+if (pronto_para_publicar) {
+  # Valida o conjunto sincronizado antes de mexer no estado dos alertas.
+  gerar_json_72h()
   # ============================================================
   # 2. LER BASE E PREVISOES
   # ============================================================
@@ -263,87 +349,13 @@ if (pronto_para_publicar) {
   # ============================================================
 
   publicacao_git_ok <- !publicar_git
-
   if (publicar_git) {
-    git <- Sys.which("git")
-    if (!nzchar(git)) {
-      warning("Git não encontrado; GeoJSON local gerado, mas publicação pública não concluída.")
-      publicacao_git_ok <- FALSE
-    } else if (!dir.exists(file.path(pasta_repo_publico, ".git"))) {
-      warning(
-        "Repositório público Git não encontrado em: ", pasta_repo_publico,
-        ". Inicialize primeiro o repositório nicky-windy-public."
-      )
-      publicacao_git_ok <- FALSE
-    } else {
-      dir.create(dirname(destino_geojson_publico), recursive = TRUE, showWarnings = FALSE)
-      copiado <- file.copy(arquivo_geojson, destino_geojson_publico, overwrite = TRUE)
-      if (!isTRUE(copiado)) {
-        warning("Não foi possível copiar o GeoJSON para o repositório público.")
-        publicacao_git_ok <- FALSE
-      }
-
-      run_git <- function(args, stdout = TRUE, stderr = TRUE) {
-        system2(
-          git,
-          c("-C", shQuote(pasta_repo_publico), args),
-          stdout = stdout, stderr = stderr
-        )
-      }
-
-      if (isTRUE(copiado)) {
-        run_git(c("add", "--", "docs/windy/paineis_nicky.geojson",
-                  "docs/windy/risco_72h.json"))
-      }
-      status_cached <- if (isTRUE(copiado)) {
-        suppressWarnings(system2(
-          git,
-          c("-C", shQuote(pasta_repo_publico), "diff", "--cached", "--quiet",
-            "--", "docs/windy/paineis_nicky.geojson", "docs/windy/risco_72h.json"),
-          stdout = FALSE, stderr = FALSE
-        ))
-      } else {
-        2L
-      }
-
-      publicacao_git_ok <- isTRUE(copiado)
-      if (isTRUE(copiado) && !identical(status_cached, 0L)) {
-        msg <- paste0("Atualiza risco Windy - ", format(Sys.time(), "%Y-%m-%d %H:%M"))
-        saida_commit <- run_git(c("commit", "-m", shQuote(msg), "--",
-                                 "docs/windy/paineis_nicky.geojson", "docs/windy/risco_72h.json"))
-        message(paste(saida_commit, collapse = "\n"))
-
-        branch <- tryCatch(
-          trimws(run_git(c("rev-parse", "--abbrev-ref", "HEAD"))[[1]]),
-          error = function(e) "main"
-        )
-        if (!nzchar(branch) || branch == "HEAD") branch <- "main"
-
-        saida_push <- tryCatch(
-          run_git(c("push", "origin", paste0("HEAD:", branch))),
-          warning = function(w) structure(conditionMessage(w), status = 1L),
-          error = function(e) structure(conditionMessage(e), status = 1L)
-        )
-        status_push <- attr(saida_push, "status")
-        if (is.null(status_push)) status_push <- 0L
-        message(paste(saida_push, collapse = "\n"))
-        publicacao_git_ok <- identical(as.integer(status_push), 0L)
-
-        if (!publicacao_git_ok) {
-          warning("Git push não foi concluído; o estado de publicação não será avançado.")
-        }
-      } else {
-        message("GitHub: GeoJSON sem alteração de conteúdo relevante para commit.")
-      }
-    }
+    publicacao_git_ok <- publicar_geojson_github()
+    if (publicacao_git_ok) publicacao_git_ok <- publicar_json_github()
   }
-
-  if (publicar_git && isTRUE(publicacao_git_ok)) {
-    message("GitHub: publicação pública concluída no repositório dedicado.")
-    message("Arquivo publicado relativo: docs/windy/paineis_nicky.geojson")
-    message("Arquivo publicado relativo: docs/windy/risco_72h.json")
+  if (publicar_git && !publicacao_git_ok) {
+    stop("GitHub: envio nao confirmado. O estado de publicacao nao foi avancado; a proxima execucao tentara novamente.")
   }
-
   # ============================================================
   # 5. MARCAR SINCRONIZAÇÃO SOMENTE APÓS SUCESSO
   # ============================================================
@@ -354,8 +366,8 @@ if (pronto_para_publicar) {
     gravar_estado_publicacao(
       mtime_ecmwf, mtime_gefs, rodada_ecmwf, rodada_gefs,
       git_publicado = publicar_git && publicacao_git_ok,
-      ecmwf_janelas_mtime = mtime_ecmwf_janelas,
-      gefs_janelas_mtime = mtime_gefs_janelas
+      janelas_ecmwf_mtime = mtime_ecmwf_janelas,
+      janelas_gefs_mtime = mtime_gefs_janelas
     )
     message("Windy: estado de sincronização atualizado com sucesso.")
   }
