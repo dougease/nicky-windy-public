@@ -44,6 +44,14 @@ if (-not $rscript) {
 if ($LASTEXITCODE -ne 0) {
     throw 'Falha na conferência de sintaxe R. A rotina atual foi preservada.'
 }
+$tokens = $null
+$erros = $null
+[System.Management.Automation.Language.Parser]::ParseFile(
+    $publicadorNovo, [ref]$tokens, [ref]$erros
+) | Out-Null
+if ($erros.Count -gt 0) {
+    throw "Falha na sintaxe PowerShell: $($erros[0].Message). A rotina atual foi preservada."
+}
 $carimbo = Get-Date -Format 'yyyyMMdd_HHmmss'
 $backup = "$destino.backup_$carimbo"
 $backupPublicador = "$publicadorAtual.backup_$carimbo"
