@@ -8,19 +8,20 @@ $dados = if ($env:NICKY_ANALYTICS_DIR) {
 $repo = if ($env:NICKY_WINDY_PUBLIC_REPO) {
     $env:NICKY_WINDY_PUBLIC_REPO
 } else {
-    Join-Path $dados 'Nicky_Windy_Public'
+    Join-Path $dados 'Nicky_Windy_Public\automacao\repo'
 }
 $origem = Join-Path $repo 'scripts\atualizar_windy_nicky_72h.R'
 $gerador = Join-Path $repo 'scripts\gerar_windy_72h.R'
+$publicadorNovo = Join-Path $repo 'scripts\sincronizar-windy-72h.ps1'
+$publicadorAtual = Join-Path $dados 'sincronizar-windy.ps1'
 $destino = Join-Path $dados 'atualizar_windy_nicky.R'
 $necessarios = @(
-    $origem, $gerador, $destino,
+    $origem, $gerador, $publicadorNovo, $publicadorAtual, $destino,
     (Join-Path $dados 'previsao_rajadas_ecmwf_janelas.csv'),
     (Join-Path $dados 'previsao_rajadas_gefs_janelas.csv'),
     (Join-Path $dados 'paineis_previsao_3.xlsx'),
     (Join-Path $dados 'paineis_previsao_gefs.xlsx'),
     (Join-Path $dados 'nicky_windy_monitoramento.R'),
-    (Join-Path $dados 'sincronizar-windy.ps1'),
     (Join-Path $dados 'Nicky_Analytics_Shiny\www\windy\paineis_nicky.geojson'),
     (Join-Path $repo 'docs\windy\index.html')
 )
@@ -45,13 +46,19 @@ if ($LASTEXITCODE -ne 0) {
 }
 $carimbo = Get-Date -Format 'yyyyMMdd_HHmmss'
 $backup = "$destino.backup_$carimbo"
+$backupPublicador = "$publicadorAtual.backup_$carimbo"
 Copy-Item -LiteralPath $destino -Destination $backup -ErrorAction Stop
+Copy-Item -LiteralPath $publicadorAtual -Destination $backupPublicador -ErrorAction Stop
 try {
     Copy-Item -LiteralPath $origem -Destination $destino -Force -ErrorAction Stop
+    Copy-Item -LiteralPath $publicadorNovo -Destination $publicadorAtual -Force -ErrorAction Stop
 } catch {
     Copy-Item -LiteralPath $backup -Destination $destino -Force
+    Copy-Item -LiteralPath $backupPublicador -Destination $publicadorAtual -Force
     throw
 }
 Write-Host "Rotina 72 h instalada: $destino"
 Write-Host "Cópia de segurança: $backup"
+Write-Host "Publicador atualizado: $publicadorAtual"
+Write-Host "Cópia de segurança: $backupPublicador"
 Write-Host 'O agendamento não foi alterado. Execute a tarefa Atualização Windy para validar a próxima rodada.'
