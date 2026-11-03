@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nicky OOH · Windy 72 h</title>
+  <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+  <script src="https://api.windy.com/assets/map-forecast/libBoot.js"></script>
+  <style>
+    :root { --azul:#333399; --lima:#E1FF56; --rosa:#F261F2; }
+    * { box-sizing:border-box; }
+    body { margin:0; font:16px Arial,sans-serif; color:#fff; background:var(--azul); }
+    header { padding:14px 20px; display:flex; flex-wrap:wrap; gap:8px 22px; align-items:center; }
+    h1 { color:var(--lima); margin:0; font-size:21px; }
+    header small { font-size:13px; }
+    #estado { padding:10px 20px; min-height:48px; background:#282875; line-height:1.45; }
+    #estado.erro { background:#9e3030; }
+    #windy { width:100%; height:calc(100vh - 176px); min-height:500px; }
+    .rodape { padding:9px 20px; font-size:13px; line-height:1.4; }
+    .chave { display:flex; align-items:center; flex-wrap:wrap; gap:8px; }
+    .chave input { width:240px; padding:8px; border-radius:5px; border:1px solid #bbb; }
+    .chave button { padding:8px 12px; background:var(--lima); border:0; border-radius:5px; cursor:pointer; font-weight:bold; }
+    .legenda { position:absolute; z-index:600; top:140px; right:12px; background:#fff; color:#222;
+      padding:10px 13px; border-radius:6px; box-shadow:0 2px 10px #3337; font-size:12px; line-height:1.7; }
+    .legenda span { display:inline-block; height:12px; width:12px; border-radius:50%; margin-right:7px; }
+    @media(max-width:700px) { #windy { height:calc(100vh - 235px); } .legenda { top:200px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NICKY OOH · vento e risco 72 h</h1>
+    <small>Arraste a barra de tempo do Windy para mudar a janela dos painéis</small>
+    <form id="form-chave" class="chave">
+      <label for="chave">Chave Windy Map Forecast API:</label>
+      <input id="chave" type="password" autocomplete="off" required placeholder="Insira a chave deste domínio">
+      <button type="submit">Abrir mapa</button>
+    </form>
+  </header>
+  <div id="estado" role="status" aria-live="polite">Carregando dados das três janelas…</div>
+  <div id="windy"></div>
+  <div class="legenda">
+    <b>Triagem Nicky</b><br>
+    <span style="background:#C94C4C"></span>Verificar ≥90 km/h<br>
+    <span style="background:#E85D04"></span>Verificar ≥54 km/h<br>
+    <span style="background:#2E8B57"></span>Acompanhar<br>
+    <span style="background:#9E9E9E"></span>Fora da janela / sem dado
+  </div>
+  <div class="rodape">A cor vale para a janela inteira de 24 h, não para a hora exata do Windy. ECMWF e GEFS são previsões Nicky de uma mesma rodada UTC; a camada de fundo do Windy pode usar outro modelo ou rodada. Confira alertas oficiais antes de mobilizar equipes.</div>
+  <script>
+  (() => {
+    'use strict';
+    const estado = document.getElementById('estado');
+    const input = document.getElementById('chave');
+    let dados = null, api = null, camada = null, marcadores = new Map();
+    let erroCarga = false;
+    const html = x => String(x ?? '').replace(/[&<>"']/g,
+      c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const instante = s => Date.parse(String(s).replace(' ', 'T') + 'Z');
+    const local = t => new Intl.DateTimeFormat('pt-BR', {
+      dateStyle:'short', timeStyle:'short', timeZone:'America/Sao_Paulo'
+    }).format(new Date(t));
+    const porcentagem = x => `${Number(x).toFixed(1).replace('.', ',')}%`;
+
+    function avisar(msg, erro=false) {
+      estado.textContent = msg;
+      estado.classList.toggle('erro', erro);
+    }
+    function validar(d) {
+      if (!d || d.versao !== 1 || !Array.isArray(d.janelas) || d.janelas.length !== 3 ||
+          !Number.isFinite(instante(d.rodadaUTC)) ||
+          d.janelas.some((j, i) => j.inicioH !== i * 24 ||
+            j.fimH !== (i + 1) * 24 || !Array.isArray(j.paineis) ||
+            j.paineis.length !== d.quantidade ||
+            instante(j.validoDeUTC) !== instante(d.rodadaUTC) + j.inicioH * 3600000 ||
+            instante(j.validoAteUTC) !== instante(d.rodadaUTC) + j.fimH * 3600000)) {
+        throw new Error('Arquivo de janelas inválido; verifique o gerador R.');
+      }
+      return d;
+    }
+    async function carregar() {
+      const resposta = await fetch('./risco_72h.json?v=' + Date.now(), {cache:'no-store'});
+      if (!resposta.ok) throw new Error(`Não foi possível ler risco_72h.json (HTTP ${resposta.status}).`);
+      dados = validar(await resposta.json());
+      erroCarga = false;
+      atualizar();
+    }
+    function janelaPara(t) {
+      return dados.janelas.find(j => t >= instante(j.validoDeUTC) &&
+        t < instante(j.validoAteUTC));
+    }
+    function popup(p, j) {
+      return `<b>Nicky ${html(p.code)}</b><br>Triagem: <b>${html(p.nivel)}</b>` +
+        `<br>Janela: ${local(instante(j.validoDeUTC))}–${local(instante(j.validoAteUTC))}` +
+        `<br>ECMWF ≥54: ${porcentagem(p.ecmwf54)} | ≥90: ${porcentagem(p.ecmwf90)}` +
+        `<br>GEFS ≥54: ${porcentagem(p.gefs54)} | ≥90: ${porcentagem(p.gefs90)}` +
+        `<br>Rodada Nicky: ${html(dados.rodadaUTC)} UTC` +
+        `<br><small>Probabilidade para as 24 h, não para a hora indicada.</small>`;
+    }
+    function atualizar() {
+      if (!dados || !api || !camada) return;
+      const agora = Date.now();
+      const rodada = instante(dados.rodadaUTC);
+      const t = Number(api.store.get('timestamp'));
+      const vencida = agora - rodada > 36 * 3600000 || rodada - agora > 3600000;
+      const j = !vencida && Number.isFinite(t) ? janelaPara(t) : null;
+      if (!j) {
+        camada.clearLayers(); marcadores.clear();
+        avisar(vencida
+          ? 'Previsão Nicky vencida ou futura. Pontos ocultos até a próxima rodada sincronizada.'
+          : 'Horário Windy fora das janelas Nicky de 0–72 h. Pontos ocultos para evitar cor incorreta.', true);
+        return;
+      }
+      const modeloWindy = String(api.store.get('product') || 'não identificado');
+      avisar(`Janela Nicky ${j.inicioH}–${j.fimH} h · ${local(instante(j.validoDeUTC))} a ${local(instante(j.validoAteUTC))} (Brasília) · ${dados.quantidade} painéis · rodada ECMWF/GEFS ${dados.rodadaUTC} UTC · fundo Windy: ${modeloWindy}${erroCarga ? ' · falha na última verificação de atualização' : ''}`);
+      const presentes = new Set();
+      for (const p of j.paineis) {
+        presentes.add(p.code);
+        let m = marcadores.get(p.code);
+        if (!m) {
+          m = L.circleMarker([p.lat,p.lon], {radius:7,weight:2,color:'#fff',fillOpacity:.9});
+          m.bindTooltip(html(p.code));
+          m.addTo(camada); marcadores.set(p.code,m);
+        }
+        m.setLatLng([p.lat,p.lon]);
+        m.setStyle({fillColor:p.cor});
+        m.bindPopup(popup(p,j));
+      }
+      for (const [id,m] of marcadores) {
+        if (!presentes.has(id)) { camada.removeLayer(m); marcadores.delete(id); }
+      }
+    }
+    async function iniciar(chave) {
+      if (api) return;
+      if (typeof windyInit !== 'function' || typeof L === 'undefined') {
+        avisar('Bibliotecas Windy indisponíveis. Verifique conexão e bloqueadores.', true); return;
+      }
+      try { await carregar(); }
+      catch (e) { avisar(e.message, true); return; }
+      avisar('Iniciando Windy…');
+      const espera = setTimeout(() => {
+        if (!api) avisar('O Windy não iniciou. Confira a chave Map Forecast API e o domínio autorizado.', true);
+      }, 20000);
+      windyInit({key:chave, lat:-26.95, lon:-48.73, zoom:9,
+        timestamp: Math.max(Date.now(), instante(dados.rodadaUTC))}, windyAPI => {
+        clearTimeout(espera);
+        api = windyAPI;
+        camada = L.layerGroup().addTo(api.map);
+        api.store.on('timestamp', atualizar);
+        api.store.on('product', atualizar);
+        atualizar();
+        setInterval(async () => {
+          try { await carregar(); }
+          catch (e) { erroCarga = true; atualizar(); }
+        }, 60000);
+        setInterval(atualizar, 60000);
+      });
+    }
+    document.getElementById('form-chave').addEventListener('submit', ev => {
+      ev.preventDefault();
+      const chave = input.value.trim();
+      if (chave) {
+        sessionStorage.setItem('nicky_windy_key', chave);
+        iniciar(chave);
+      }
+    });
+    const anterior = sessionStorage.getItem('nicky_windy_key');
+    if (anterior) { input.value = anterior; iniciar(anterior); }
+    else avisar('Insira uma chave Windy Map Forecast API autorizada para este domínio.');
+  })();
+  </script>
+</body>
+</html>
