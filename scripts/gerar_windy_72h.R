@@ -15,10 +15,12 @@ pasta_script <- if (length(argumentos_execucao)) {
 repo_padrao <- if (basename(pasta_script) == "scripts") {
   dirname(pasta_script)
 } else file.path(pasta_script, "Nicky_Windy_Public")
-pasta_dados <- Sys.getenv("NICKY_ANALYTICS_DIR", unset = dirname(repo_padrao))
+pasta_dados <- Sys.getenv("NICKY_ANALYTICS_DIR",
+  unset = "C:/Users/Douglas/Documents/NICKY OOH/Climatologia")
 pasta_repo <- Sys.getenv("NICKY_WINDY_PUBLIC_REPO", unset = repo_padrao)
 pasta_publica <- file.path(pasta_repo, "docs", "windy")
-arquivo_saida <- file.path(pasta_publica, "risco_72h.json")
+arquivo_saida <- Sys.getenv("NICKY_WINDY_JSON_OUT",
+  unset = file.path(pasta_publica, "risco_72h.json"))
 arquivo_ecmwf <- file.path(pasta_dados, "previsao_rajadas_ecmwf_janelas.csv")
 arquivo_gefs <- file.path(pasta_dados, "previsao_rajadas_gefs_janelas.csv")
 arquivo_base <- file.path(pasta_dados, "paineis_analytics_atual.xlsx")
@@ -166,7 +168,8 @@ payload <- list(versao = 1L, rodadaUTC = e$RODADA_UTC[[1]],
     "%Y-%m-%d %H:%M:%S", tz = "UTC"),
   quantidade = nrow(base), janelas = janelas)
 dir.create(pasta_publica, recursive = TRUE, showWarnings = FALSE)
-temporario <- tempfile("nicky_72h_", tmpdir = pasta_publica, fileext = ".json")
+dir.create(dirname(arquivo_saida), recursive = TRUE, showWarnings = FALSE)
+temporario <- tempfile("nicky_72h_", tmpdir = dirname(arquivo_saida), fileext = ".json")
 jsonlite::write_json(payload, temporario, auto_unbox = TRUE, pretty = TRUE,
   na = "null", null = "null")
 if (file.exists(arquivo_saida)) {
