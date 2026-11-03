@@ -1,26 +1,42 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
   import { map } from '@windy/map';
+  import { store } from '@windy/store';
   import { RISKS, prepare, pinSvg, popupHtml } from './pins.mjs';
-  import { demoData } from './demoData.mjs';
+  import { LEVELS, prepareWindow, popupWindowHtml, selectWindow, utcMillis, validateRisk72 } from './risk72.mjs';
 
-  const SOURCE = 'https://raw.githubusercontent.com/dougease/nicky-windy-public/main/paineis_nicky.geojson';
+  const SOURCE = 'https://raw.githubusercontent.com/dougease/nicky-windy-public/main/docs/windy/risco_72h.json';
+  const STATIC_SOURCE = 'https://raw.githubusercontent.com/dougease/nicky-windy-public/main/paineis_nicky.geojson';
   let markers = [];
   let groups = [];
-  let count = 0;
+  let payload;
+  let activeFrom = null;
   let generated = '';
   let received = '';
-  let message = 'Carregando os dados Nicky…';
+  let staticMode = false;
+  let staticGeneratedMs = NaN;
+  let displayCount = 0;
+  let message = 'Carregando as três janelas de risco…';
   let busy = false;
-  let simulated = false;
   let failed = false;
   let controller;
   let timer;
   let disposed = false;
   let serial = 0;
 
-  function draw(data, demo) {
-    const next = prepare(data, demo);
+  function clearMarkers() {
+    markers.forEach(marker => map.removeLayer(marker));
+    markers = [];
+    groups = [];
+    activeFrom = null;
+  }
+  function drawStatic(data) {
+    const next = prepare(data);
+    const generatedMs = Date.parse(next.generated);
+    if (!Number.isFinite(generatedMs) || Date.now() - generatedMs > 36 * 3600000 ||
+        generatedMs - Date.now() > 3600000) {
+      throw new Error('Fotografia anterior vencida ou sem horário confiável.');
+    }
     const added = [];
     try {
       for (const group of next.groups) {
@@ -31,22 +47,77 @@
         });
         const marker = new L.Marker([group.lat, group.lon], { icon });
         added.push(marker);
-        marker.bindPopup(popupHtml(group, demo));
+        marker.bindPopup(popupHtml(group, false));
         marker.addTo(map);
       }
     } catch (error) {
       added.forEach(marker => map.removeLayer(marker));
       throw error;
     }
-    markers.forEach(marker => map.removeLayer(marker));
+    clearMarkers();
     markers = added;
     groups = next.groups;
-    count = next.count;
+    staticMode = true;
+    staticGeneratedMs = generatedMs;
+    displayCount = next.count;
     generated = next.generated;
     received = new Date().toLocaleString('pt-BR');
-    simulated = demo;
     failed = false;
-    message = demo ? 'TESTE VISUAL — cinco níveis simulados.' : 'Última leitura carregada. Atualização a cada 5 minutos.';
+    message = 'Leitura anterior estática. A barra do Windy ainda não altera estas cores; aguardando o primeiro JSON de 72 h.';
+  }
+  function draw(window) {
+    const nextGroups = prepareWindow(window);
+    const added = [];
+    try {
+      for (const group of nextGroups) {
+        const icon = L.divIcon({
+          html: pinSvg(group.risk.color, group.items.length),
+          iconSize: [36, 48], iconAnchor: [18, 47], popupAnchor: [0, -44],
+          className: 'nicky-ooh-pin',
+        });
+        const marker = new L.Marker([group.lat, group.lon], { icon });
+        added.push(marker);
+        marker.bindPopup(popupWindowHtml(group, window, payload.rodadaUTC));
+        marker.addTo(map);
+      }
+    } catch (error) {
+      added.forEach(marker => map.removeLayer(marker));
+      throw error;
+    }
+    clearMarkers();
+    markers = added;
+    groups = nextGroups;
+    activeFrom = window.inicioH;
+    displayCount = payload.quantidade;
+  }
+  function sync(timestamp = store.get('timestamp'), force = false) {
+    if (disposed) return;
+    if (staticMode) {
+      if (Date.now() - staticGeneratedMs > 36 * 3600000) {
+        clearMarkers();
+        failed = true;
+        message = 'Fotografia anterior vencida. Nenhum risco operacional exibido.';
+      }
+      return;
+    }
+    if (!payload) return;
+    const age = Date.now() - utcMillis(payload.rodadaUTC);
+    if (age > 36 * 3600000 || age < -3600000) {
+      clearMarkers();
+      failed = true;
+      message = 'Rodada vencida ou futura. Nenhum painel classificado até nova publicação.';
+      return;
+    }
+    const window = selectWindow(payload, timestamp);
+    if (!window) {
+      clearMarkers();
+      failed = false;
+      message = 'Horário fora da janela 0–72 h da rodada Nicky. Nenhuma cor de risco exibida.';
+      return;
+    }
+    if (force || activeFrom !== window.inicioH) draw(window);
+    failed = false;
+    message = `Janela ${window.inicioH}–${window.fimH} h · ${window.validoDeUTC} a ${window.validoAteUTC} UTC. Cor para todo o período de 24 h.`;
   }
   async function refresh() {
     const id = ++serial;
@@ -57,24 +128,33 @@
     busy = true;
     try {
       const response = await fetch(SOURCE, { cache: 'no-store', signal: current.signal });
+      if (!response.ok && response.status === 404 && !payload) {
+        const legacy = await fetch(STATIC_SOURCE, { cache: 'no-store', signal: current.signal });
+        if (!legacy.ok) throw new Error(`JSON 72 h ausente; GeoJSON anterior HTTP ${legacy.status}`);
+        const snapshot = await legacy.json();
+        if (disposed || id !== serial) return;
+        drawStatic(snapshot);
+        return;
+      }
       if (!response.ok) throw new Error(`Resposta HTTP ${response.status}`);
-      const data = await response.json();
+      const next = validateRisk72(await response.json());
       if (disposed || id !== serial) return;
-      draw(data, false);
+      payload = next;
+      staticMode = false;
+      generated = next.rodadaUTC;
+      received = new Date().toLocaleString('pt-BR');
+      sync(store.get('timestamp'), true);
     } catch (error) {
       if (disposed || id !== serial) return;
+      const stale = (payload && Date.now() - utcMillis(payload.rodadaUTC) > 36 * 3600000) ||
+        (staticMode && Date.now() - staticGeneratedMs > 36 * 3600000);
+      if (stale) clearMarkers();
       failed = true;
-      message = `Falha ao atualizar: ${error.message}. ${count ? 'Os pins exibem a última leitura carregada.' : 'Nenhum dado operacional foi carregado.'}`;
+      message = `Falha ao atualizar: ${error.message}. ${stale || (!payload && !staticMode) ? 'Nenhuma cor operacional exibida.' : 'Última leitura válida preservada até vencer.'}`;
     } finally {
       clearTimeout(timeout);
       if (id === serial) busy = false;
     }
-  }
-  function demo() {
-    serial++;
-    controller?.abort();
-    busy = false;
-    draw(demoData, true);
   }
   function locate() {
     if (!groups.length) return;
@@ -82,37 +162,38 @@
     const lon = groups.reduce((sum, g) => sum + g.lon, 0) / groups.length;
     map.setView([lat, lon], 10);
   }
+  const onTimestamp = timestamp => sync(timestamp);
   onMount(() => {
+    store.on('timestamp', onTimestamp);
     refresh();
-    timer = setInterval(() => { if (!simulated) refresh(); }, 300000);
+    timer = setInterval(refresh, 300000);
   });
   onDestroy(() => {
     disposed = true;
     serial++;
     controller?.abort();
     clearInterval(timer);
-    markers.forEach(marker => map.removeLayer(marker));
+    store.off('timestamp', onTimestamp);
+    clearMarkers();
   });
 </script>
 
 <section class="nicky-panel">
-  <strong>Nicky OOH · Risco dos painéis</strong>
+  <strong>Nicky OOH · Risco 72 h</strong>
   <p class:error={failed} role="status">{message}</p>
-  {#if count}
-    <p>{count} painéis · {groups.length} locais<br>Geração da fonte: {generated}<br>Leitura recebida: {received}</p>
+  {#if payload || staticMode}
+    <p>{displayCount} painéis · {groups.length} locais{staticMode ? ' (fotografia estática)' : ' na janela'}<br>{staticMode ? 'Geração: ' : 'Rodada: '}{generated}{staticMode ? '' : ' UTC'}<br>Leitura recebida: {received}</p>
   {/if}
   <div class="nicky-actions">
-    <button on:click={refresh} disabled={busy}>Dados atuais</button>
-    <button on:click={demo}>Testar 5 cores</button>
-    <button on:click={locate} disabled={!count}>Localizar painéis</button>
+    <button on:click={refresh} disabled={busy}>Atualizar dados</button>
+    <button on:click={locate} disabled={!groups.length}>Localizar painéis</button>
   </div>
   <div class="nicky-legend">
-    {#each RISKS as risk}
+    {#each (staticMode ? RISKS : LEVELS) as risk}
       <span><i style:background-color={risk.color}></i>{risk.name}</span>
     {/each}
-    <span><i style="background-color:#6B7280"></i>Sem classificação</span>
   </div>
-  <p>Locais com vários painéis mostram o maior risco conhecido e a quantidade. Clique no pin para ver todos. Risco não recalculado pela linha do tempo do Windy.</p>
+  <p>{staticMode ? 'A fotografia anterior não responde à barra do Windy.' : 'Arraste a barra do Windy: cada cor vale para a janela inteira de 24 h.'} A camada de vento pode usar outro modelo ou rodada. Consulte alertas oficiais antes de mobilizar equipes.</p>
 </section>
 
 <style>

@@ -32,7 +32,7 @@ try {
   const urls = [...new Set(body.match(/https:\/\/windy-plugins\.com\/[^\s"'<>\\]+/g) ?? [])];
   const selected = urls.find(url => url.includes('/windy-plugin-nicky/') && url.endsWith('/plugin.min.js'));
   const summary = selected
-    ? `## Plugin Nicky publicado\n\nVersão: ${manifest.version}\n\nURL do plugin: ${selected}\n\nNo Windy, abra Menu → Install Windy Plugin e use a URL acima. Valide primeiro o botão Testar 5 cores.\n`
+    ? `## Plugin Nicky publicado\n\nVersão: ${manifest.version}\n\nURL do plugin: ${selected}\n\nNo Windy, abra Menu → Install Windy Plugin e use a URL acima. Confira as janelas 0–24, 24–48 e 48–72 h na barra de tempo.\n`
     : `## Publicação aceita pelo Windy\n\nVersão: ${manifest.version}\n\nO servidor não retornou uma URL reconhecida pelo script. É necessário conferir o endereço antes da instalação; não tente reenviar a mesma versão.\n`;
   await writeFile('publication.txt', summary);
   if (process.env.GITHUB_STEP_SUMMARY) await writeFile(process.env.GITHUB_STEP_SUMMARY, summary, { flag: 'a' });
