@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "NICKY OOH - Risco meteorológico",
-  "generated_at": "2026-11-04T19:20:02-0300",
+  "generated_at": "2026-11-04T20:40:44-0300",
   "features": [
     {
       "type": "Feature",
@@ -4917,6 +4917,56 @@
         "name": "NICKY 1280TS-01 · Normal",
         "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF<br>Local: Balneário Camboriú / Santa Catarina<br>ECMWF P≥36: 20,0% | P≥54: 0,0% | P≥90: 0,0%<br>GEFS P≥36: — | P≥54: — | P≥90: —<br>Concordância: Modelo único<br>Ação: Rotina operacional",
         "code": "1280TS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF",
+        "concordancia": "Modelo único",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-11-04 12:00:00 UTC",
+        "rodada_gefs": "20261104 12:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1811TS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6491,
+          -26.7712
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1811TS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF<br>Local: Penha / Santa Catarina<br>ECMWF P≥36: 41,0% | P≥54: 0,6% | P≥90: 0,0%<br>GEFS P≥36: — | P≥54: — | P≥90: —<br>Concordância: Modelo único<br>Ação: Rotina operacional",
+        "code": "1811TS-01",
+        "risco": "Normal",
+        "risco_score": 0,
+        "modelo": "ECMWF",
+        "concordancia": "Modelo único",
+        "acao": "Rotina operacional",
+        "rodada_ecmwf": "2026-11-04 12:00:00 UTC",
+        "rodada_gefs": "20261104 12:00 UTC",
+        "marker-color": "#2E8B57",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1812TS-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6519,
+          -26.7728
+        ]
+      },
+      "properties": {
+        "name": "NICKY 1812TS-01 · Normal",
+        "description": "<b>Risco: Normal<\/b><br>Modelo determinante: ECMWF<br>Local: Penha / Santa Catarina<br>ECMWF P≥36: 41,0% | P≥54: 0,6% | P≥90: 0,0%<br>GEFS P≥36: — | P≥54: — | P≥90: —<br>Concordância: Modelo único<br>Ação: Rotina operacional",
+        "code": "1812TS-01",
         "risco": "Normal",
         "risco_score": 0,
         "modelo": "ECMWF",
