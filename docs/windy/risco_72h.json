@@ -1,14 +1,14 @@
 {
   "versao": 1,
-  "rodadaUTC": "2026-11-10 00:00:00",
-  "atualizadoUTC": "2026-11-10 11:04:25",
+  "rodadaUTC": "2026-11-10 12:00:00",
+  "atualizadoUTC": "2026-11-10 22:17:46",
   "quantidade": 199,
   "janelas": [
     {
       "inicioH": 0,
       "fimH": 24,
-      "validoDeUTC": "2026-11-10 00:00:00",
-      "validoAteUTC": "2026-11-11 00:00:00",
+      "validoDeUTC": "2026-11-10 12:00:00",
+      "validoAteUTC": "2026-11-11 12:00:00",
       "paineis": [
         {
           "code": "0001-Q1",
@@ -522,7 +522,7 @@
           "lon": -48.6107,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 0.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -984,7 +984,7 @@
           "lon": -48.6098,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 0.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -995,7 +995,7 @@
           "lon": -48.6055,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 0.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1127,7 +1127,7 @@
           "lon": -48.666,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 1.4,
+          "ecmwf54": 0.9,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1259,7 +1259,7 @@
           "lon": -48.6052,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 0.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1501,7 +1501,7 @@
           "lon": -48.6052,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 0.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1523,7 +1523,7 @@
           "lon": -48.6098,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 0.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1545,7 +1545,7 @@
           "lon": -48.6104,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 0.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1677,7 +1677,7 @@
           "lon": -48.5961,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 0.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1688,7 +1688,7 @@
           "lon": -48.5958,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 0.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1699,7 +1699,7 @@
           "lon": -48.6166,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 0.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1864,7 +1864,7 @@
           "lon": -48.6363,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 1.4,
+          "ecmwf54": 0.9,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -2139,7 +2139,7 @@
           "lon": -48.6099,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 0.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -2161,7 +2161,7 @@
           "lon": -48.6207,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 1.6,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -2204,8 +2204,8 @@
     {
       "inicioH": 24,
       "fimH": 48,
-      "validoDeUTC": "2026-11-11 00:00:00",
-      "validoAteUTC": "2026-11-12 00:00:00",
+      "validoDeUTC": "2026-11-11 12:00:00",
+      "validoAteUTC": "2026-11-12 12:00:00",
       "paineis": [
         {
           "code": "0001-Q1",
@@ -3269,7 +3269,7 @@
           "lon": -48.6177,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 2.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3280,7 +3280,7 @@
           "lon": -48.6178,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 2.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3291,7 +3291,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 2.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3302,7 +3302,7 @@
           "lon": -48.6181,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 2.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3313,7 +3313,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 2.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3324,7 +3324,7 @@
           "lon": -48.666,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 3.4,
+          "ecmwf54": 2.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -4061,7 +4061,7 @@
           "lon": -48.6363,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 3.4,
+          "ecmwf54": 2.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -4401,8 +4401,8 @@
     {
       "inicioH": 48,
       "fimH": 72,
-      "validoDeUTC": "2026-11-12 00:00:00",
-      "validoAteUTC": "2026-11-13 00:00:00",
+      "validoDeUTC": "2026-11-12 12:00:00",
+      "validoAteUTC": "2026-11-13 12:00:00",
       "paineis": [
         {
           "code": "0001-Q1",
@@ -5521,7 +5521,7 @@
           "lon": -48.666,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 25,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -6258,7 +6258,7 @@
           "lon": -48.6363,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 25,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
