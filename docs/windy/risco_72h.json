@@ -1,14 +1,14 @@
 {
   "versao": 1,
-  "rodadaUTC": "2026-11-14 00:00:00",
-  "atualizadoUTC": "2026-11-14 12:28:07",
+  "rodadaUTC": "2026-11-15 12:00:00",
+  "atualizadoUTC": "2026-11-15 23:24:50",
   "quantidade": 199,
   "janelas": [
     {
       "inicioH": 0,
       "fimH": 24,
-      "validoDeUTC": "2026-11-14 00:00:00",
-      "validoAteUTC": "2026-11-15 00:00:00",
+      "validoDeUTC": "2026-11-15 12:00:00",
+      "validoAteUTC": "2026-11-16 12:00:00",
       "paineis": [
         {
           "code": "0001-Q1",
@@ -1072,7 +1072,7 @@
           "lon": -48.6177,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 1.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1083,7 +1083,7 @@
           "lon": -48.6178,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 1.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1094,7 +1094,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 1.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1105,7 +1105,7 @@
           "lon": -48.6181,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 1.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1116,7 +1116,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 1.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -2204,8 +2204,8 @@
     {
       "inicioH": 24,
       "fimH": 48,
-      "validoDeUTC": "2026-11-15 00:00:00",
-      "validoAteUTC": "2026-11-16 00:00:00",
+      "validoDeUTC": "2026-11-16 12:00:00",
+      "validoAteUTC": "2026-11-17 12:00:00",
       "paineis": [
         {
           "code": "0001-Q1",
@@ -3269,7 +3269,7 @@
           "lon": -48.6177,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 4.9,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3280,7 +3280,7 @@
           "lon": -48.6178,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 4.9,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3291,7 +3291,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 4.9,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3302,7 +3302,7 @@
           "lon": -48.6181,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 4.9,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3313,7 +3313,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 4.9,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3324,7 +3324,7 @@
           "lon": -48.666,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0.2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -4061,7 +4061,7 @@
           "lon": -48.6363,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0.2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -4083,7 +4083,7 @@
           "lon": -48.9005,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 1.4,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -4401,8 +4401,8 @@
     {
       "inicioH": 48,
       "fimH": 72,
-      "validoDeUTC": "2026-11-16 00:00:00",
-      "validoAteUTC": "2026-11-17 00:00:00",
+      "validoDeUTC": "2026-11-17 12:00:00",
+      "validoAteUTC": "2026-11-18 12:00:00",
       "paineis": [
         {
           "code": "0001-Q1",
@@ -5466,7 +5466,7 @@
           "lon": -48.6177,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 1.2,
+          "ecmwf54": 7.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -5477,7 +5477,7 @@
           "lon": -48.6178,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 1.2,
+          "ecmwf54": 7.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -5488,7 +5488,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 1.2,
+          "ecmwf54": 7.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -5499,7 +5499,7 @@
           "lon": -48.6181,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 1.2,
+          "ecmwf54": 7.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -5510,7 +5510,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 1.2,
+          "ecmwf54": 7.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -5521,7 +5521,7 @@
           "lon": -48.666,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 1.1,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -6258,7 +6258,7 @@
           "lon": -48.6363,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 1.1,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
