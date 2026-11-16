@@ -1,14 +1,14 @@
 {
   "versao": 1,
-  "rodadaUTC": "2026-11-16 00:00:00",
-  "atualizadoUTC": "2026-11-16 12:01:02",
+  "rodadaUTC": "2026-11-16 12:00:00",
+  "atualizadoUTC": "2026-11-16 22:17:36",
   "quantidade": 199,
   "janelas": [
     {
       "inicioH": 0,
       "fimH": 24,
-      "validoDeUTC": "2026-11-16 00:00:00",
-      "validoAteUTC": "2026-11-17 00:00:00",
+      "validoDeUTC": "2026-11-16 12:00:00",
+      "validoAteUTC": "2026-11-17 12:00:00",
       "paineis": [
         {
           "code": "0001-Q1",
@@ -2204,8 +2204,8 @@
     {
       "inicioH": 24,
       "fimH": 48,
-      "validoDeUTC": "2026-11-17 00:00:00",
-      "validoAteUTC": "2026-11-18 00:00:00",
+      "validoDeUTC": "2026-11-17 12:00:00",
+      "validoAteUTC": "2026-11-18 12:00:00",
       "paineis": [
         {
           "code": "0001-Q1",
@@ -3269,7 +3269,7 @@
           "lon": -48.6177,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 13,
+          "ecmwf54": 3.6,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3280,7 +3280,7 @@
           "lon": -48.6178,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 13,
+          "ecmwf54": 3.6,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3291,7 +3291,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 13,
+          "ecmwf54": 3.6,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3302,7 +3302,7 @@
           "lon": -48.6181,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 13,
+          "ecmwf54": 3.6,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3313,7 +3313,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 13,
+          "ecmwf54": 3.6,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -4401,8 +4401,8 @@
     {
       "inicioH": 48,
       "fimH": 72,
-      "validoDeUTC": "2026-11-18 00:00:00",
-      "validoAteUTC": "2026-11-19 00:00:00",
+      "validoDeUTC": "2026-11-18 12:00:00",
+      "validoAteUTC": "2026-11-19 12:00:00",
       "paineis": [
         {
           "code": "0001-Q1",
@@ -5466,7 +5466,7 @@
           "lon": -48.6177,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 16.6,
+          "ecmwf54": 23.5,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -5477,7 +5477,7 @@
           "lon": -48.6178,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 16.6,
+          "ecmwf54": 23.5,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -5488,7 +5488,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 16.6,
+          "ecmwf54": 23.5,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -5499,7 +5499,7 @@
           "lon": -48.6181,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 16.6,
+          "ecmwf54": 23.5,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -5510,7 +5510,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 16.6,
+          "ecmwf54": 23.5,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -5521,7 +5521,7 @@
           "lon": -48.666,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0.6,
+          "ecmwf54": 0.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -6258,7 +6258,7 @@
           "lon": -48.6363,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0.6,
+          "ecmwf54": 0.2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -6280,7 +6280,7 @@
           "lon": -48.9005,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 9.4,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
