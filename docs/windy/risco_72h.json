@@ -1,14 +1,14 @@
 {
   "versao": 1,
-  "rodadaUTC": "2026-11-25 00:00:00",
-  "atualizadoUTC": "2026-11-25 11:07:25",
+  "rodadaUTC": "2026-11-25 12:00:00",
+  "atualizadoUTC": "2026-11-25 23:07:55",
   "quantidade": 199,
   "janelas": [
     {
       "inicioH": 0,
       "fimH": 24,
-      "validoDeUTC": "2026-11-25 00:00:00",
-      "validoAteUTC": "2026-11-26 00:00:00",
+      "validoDeUTC": "2026-11-25 12:00:00",
+      "validoAteUTC": "2026-11-26 12:00:00",
       "paineis": [
         {
           "code": "0001-Q1",
@@ -16,7 +16,7 @@
           "lon": -48.7273,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -27,7 +27,7 @@
           "lon": -48.7273,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -522,8 +522,8 @@
           "lon": -48.6107,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 51.4,
-          "gefs54": 29,
+          "ecmwf54": 30.5,
+          "gefs54": 12.9,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -687,7 +687,7 @@
           "lon": -48.7181,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -698,7 +698,7 @@
           "lon": -48.7184,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -709,7 +709,7 @@
           "lon": -48.6789,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -720,7 +720,7 @@
           "lon": -48.6362,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -731,7 +731,7 @@
           "lon": -48.6799,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -742,7 +742,7 @@
           "lon": -48.6789,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -753,7 +753,7 @@
           "lon": -48.6798,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -764,7 +764,7 @@
           "lon": -48.6924,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -984,8 +984,8 @@
           "lon": -48.6098,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 51.4,
-          "gefs54": 29,
+          "ecmwf54": 30.5,
+          "gefs54": 12.9,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -995,8 +995,8 @@
           "lon": -48.6055,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 51.4,
-          "gefs54": 29,
+          "ecmwf54": 30.5,
+          "gefs54": 12.9,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -1028,7 +1028,7 @@
           "lon": -48.708,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1039,7 +1039,7 @@
           "lon": -48.7086,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1050,7 +1050,7 @@
           "lon": -48.6959,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1061,7 +1061,7 @@
           "lon": -48.6308,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 1.4,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1127,9 +1127,9 @@
           "lon": -48.666,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 5.5,
+          "ecmwf54": 1.8,
           "gefs54": 0,
-          "ecmwf90": 0.1,
+          "ecmwf90": 0,
           "gefs90": 0
         },
         {
@@ -1204,7 +1204,7 @@
           "lon": -48.709,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1215,7 +1215,7 @@
           "lon": -48.7129,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1226,7 +1226,7 @@
           "lon": -48.7122,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1237,7 +1237,7 @@
           "lon": -48.7141,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1248,7 +1248,7 @@
           "lon": -48.7141,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1259,8 +1259,8 @@
           "lon": -48.6052,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 51.4,
-          "gefs54": 29,
+          "ecmwf54": 30.5,
+          "gefs54": 12.9,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -1501,8 +1501,8 @@
           "lon": -48.6052,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 51.4,
-          "gefs54": 29,
+          "ecmwf54": 30.5,
+          "gefs54": 12.9,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -1523,8 +1523,8 @@
           "lon": -48.6098,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 51.4,
-          "gefs54": 29,
+          "ecmwf54": 30.5,
+          "gefs54": 12.9,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -1545,8 +1545,8 @@
           "lon": -48.6104,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 51.4,
-          "gefs54": 29,
+          "ecmwf54": 30.5,
+          "gefs54": 12.9,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -1677,8 +1677,8 @@
           "lon": -48.5961,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 51.4,
-          "gefs54": 29,
+          "ecmwf54": 30.5,
+          "gefs54": 12.9,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -1688,8 +1688,8 @@
           "lon": -48.5958,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 51.4,
-          "gefs54": 29,
+          "ecmwf54": 30.5,
+          "gefs54": 12.9,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -1699,8 +1699,8 @@
           "lon": -48.6166,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 51.4,
-          "gefs54": 29,
+          "ecmwf54": 30.5,
+          "gefs54": 12.9,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -1710,8 +1710,8 @@
           "lon": -48.612,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 44.8,
-          "gefs54": 6.5,
+          "ecmwf54": 38.1,
+          "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -1721,8 +1721,8 @@
           "lon": -48.6118,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 44.8,
-          "gefs54": 6.5,
+          "ecmwf54": 38.1,
+          "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -1732,8 +1732,8 @@
           "lon": -48.6118,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 44.8,
-          "gefs54": 6.5,
+          "ecmwf54": 38.1,
+          "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -1765,7 +1765,7 @@
           "lon": -48.7193,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1776,7 +1776,7 @@
           "lon": -48.6843,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1787,7 +1787,7 @@
           "lon": -48.6841,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1798,7 +1798,7 @@
           "lon": -48.7085,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1809,7 +1809,7 @@
           "lon": -48.6832,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1820,7 +1820,7 @@
           "lon": -48.6805,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1842,7 +1842,7 @@
           "lon": -48.6552,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 1.4,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1853,7 +1853,7 @@
           "lon": -48.6548,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 1.4,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1864,9 +1864,9 @@
           "lon": -48.6363,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 5.5,
+          "ecmwf54": 1.8,
           "gefs54": 0,
-          "ecmwf90": 0.1,
+          "ecmwf90": 0,
           "gefs90": 0
         },
         {
@@ -1875,8 +1875,8 @@
           "lon": -48.6128,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 44.8,
-          "gefs54": 6.5,
+          "ecmwf54": 38.1,
+          "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -1884,11 +1884,11 @@
           "code": "5012FS-01",
           "lat": -25.96,
           "lon": -48.9005,
-          "nivel": "Verificar ≥54 km/h",
-          "cor": "#E85D04",
-          "ecmwf54": 53.5,
+          "nivel": "Acompanhar",
+          "cor": "#2E8B57",
+          "ecmwf54": 0,
           "gefs54": 0,
-          "ecmwf90": 1.5,
+          "ecmwf90": 0,
           "gefs90": 0
         },
         {
@@ -1930,7 +1930,7 @@
           "lon": -48.7055,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1941,7 +1941,7 @@
           "lon": -48.7056,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1952,7 +1952,7 @@
           "lon": -48.7061,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -1963,7 +1963,7 @@
           "lon": -48.7066,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -2139,8 +2139,8 @@
           "lon": -48.6099,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 51.4,
-          "gefs54": 29,
+          "ecmwf54": 30.5,
+          "gefs54": 12.9,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -2150,7 +2150,7 @@
           "lon": -48.7083,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -2161,8 +2161,8 @@
           "lon": -48.6207,
           "nivel": "Verificar ≥54 km/h",
           "cor": "#E85D04",
-          "ecmwf54": 78.1,
-          "gefs54": 35.5,
+          "ecmwf54": 65,
+          "gefs54": 25.8,
           "ecmwf90": 0,
           "gefs90": 0
         },
@@ -2183,7 +2183,7 @@
           "lon": -48.6491,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -2194,7 +2194,7 @@
           "lon": -48.6519,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 2,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -2204,8 +2204,8 @@
     {
       "inicioH": 24,
       "fimH": 48,
-      "validoDeUTC": "2026-11-26 00:00:00",
-      "validoAteUTC": "2026-11-27 00:00:00",
+      "validoDeUTC": "2026-11-26 12:00:00",
+      "validoAteUTC": "2026-11-27 12:00:00",
       "paineis": [
         {
           "code": "0001-Q1",
@@ -2719,7 +2719,7 @@
           "lon": -48.6107,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 8.5,
+          "ecmwf54": 2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3181,7 +3181,7 @@
           "lon": -48.6098,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 8.5,
+          "ecmwf54": 2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3192,7 +3192,7 @@
           "lon": -48.6055,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 8.5,
+          "ecmwf54": 2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3269,7 +3269,7 @@
           "lon": -48.6177,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 21.4,
+          "ecmwf54": 11.8,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3280,7 +3280,7 @@
           "lon": -48.6178,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 21.4,
+          "ecmwf54": 11.8,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3291,7 +3291,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 21.4,
+          "ecmwf54": 11.8,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3302,7 +3302,7 @@
           "lon": -48.6181,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 21.4,
+          "ecmwf54": 11.8,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3313,7 +3313,7 @@
           "lon": -48.618,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 21.4,
+          "ecmwf54": 11.8,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3456,7 +3456,7 @@
           "lon": -48.6052,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 8.5,
+          "ecmwf54": 2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3698,7 +3698,7 @@
           "lon": -48.6052,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 8.5,
+          "ecmwf54": 2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3720,7 +3720,7 @@
           "lon": -48.6098,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 8.5,
+          "ecmwf54": 2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3742,7 +3742,7 @@
           "lon": -48.6104,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 8.5,
+          "ecmwf54": 2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3874,7 +3874,7 @@
           "lon": -48.5961,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 8.5,
+          "ecmwf54": 2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3885,7 +3885,7 @@
           "lon": -48.5958,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 8.5,
+          "ecmwf54": 2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3896,7 +3896,7 @@
           "lon": -48.6166,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 8.5,
+          "ecmwf54": 2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3907,7 +3907,7 @@
           "lon": -48.612,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 7.5,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3918,7 +3918,7 @@
           "lon": -48.6118,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 7.5,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -3929,7 +3929,7 @@
           "lon": -48.6118,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 7.5,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -4072,7 +4072,7 @@
           "lon": -48.6128,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 7.5,
+          "ecmwf54": 0,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -4336,7 +4336,7 @@
           "lon": -48.6099,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 8.5,
+          "ecmwf54": 2,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -4358,7 +4358,7 @@
           "lon": -48.6207,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 16.8,
+          "ecmwf54": 1.6,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -4401,8 +4401,8 @@
     {
       "inicioH": 48,
       "fimH": 72,
-      "validoDeUTC": "2026-11-27 00:00:00",
-      "validoAteUTC": "2026-11-28 00:00:00",
+      "validoDeUTC": "2026-11-27 12:00:00",
+      "validoAteUTC": "2026-11-28 12:00:00",
       "paineis": [
         {
           "code": "0001-Q1",
@@ -5521,7 +5521,7 @@
           "lon": -48.666,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 25,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
@@ -6258,7 +6258,7 @@
           "lon": -48.6363,
           "nivel": "Acompanhar",
           "cor": "#2E8B57",
-          "ecmwf54": 0,
+          "ecmwf54": 25,
           "gefs54": 0,
           "ecmwf90": 0,
           "gefs90": 0
